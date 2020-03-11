@@ -67,20 +67,20 @@ main:
 #    url: presentation
 #    weight: 5
 #
-#  - identifier:  Contact
-#    name: "@"
-#    url: contact
-#    weight: 6
-#
-#  - identifier:  gallery
-#    name: Gallery
-#    url: gallery
-#    weight: 5
-#    
-#  - parent: gallery
-#    name: Cartoon
-#    url: gallery/cartoon
-#    
-#  - parent: gallery
-#    name: Photo
-#    url: gallery/photo
+  - identifier:  Contact
+    name: "@"
+    url: contact
+    weight: 6
+
+  - identifier:  gallery
+    name: Gallery
+    url: gallery
+    weight: 5
+
+  - parent: gallery
+    name: Cartoon
+    url: gallery/cartoon
+
+  - parent: gallery
+    name: Photo
+    url: gallery/photo
