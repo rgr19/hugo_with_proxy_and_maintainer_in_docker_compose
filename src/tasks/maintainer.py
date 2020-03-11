@@ -21,11 +21,14 @@ class Backuper(GitExecutor):
 
 	def init_backup(self, ):
 		for path in self.paths:
-			logger.info(f"Initiate backup for DIR {path}")
-			self.git_init_shared(path)
-			logger.info("Config backup DB...")
-			for config in self.configs:
-				self.git_config(*config)
+			try:
+				logger.info(f"Initiate backup for DIR {path}")
+				self.git_init_shared(path)
+				logger.info("Config backup DB...")
+				for config in self.configs:
+					self.git_config(*config)
+			except:
+				pass
 		self.do_backup()
 
 	def do_backup(self, ):
