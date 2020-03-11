@@ -67,10 +67,6 @@ main:
 #    url: presentation
 #    weight: 5
 #
-  - identifier:  Contact
-    name: "@"
-    url: contact
-    weight: 6
 
   - identifier:  gallery
     name: Gallery
