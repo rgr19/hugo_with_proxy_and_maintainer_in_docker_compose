@@ -99,6 +99,7 @@ def main(argv):
 	formatterKwargs['directory'] = PROJECT_CONTENT
 	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT)
 
+
 	logger.info("Maintainer begin LOOP:")
 	while True:
 		maintenance(backuper, formatterKwargs)

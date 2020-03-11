@@ -3,8 +3,6 @@ include .env
 include .env.local
 
 SHELL := /usr/bin/env bash
-CPUS ?= $(shell sysctl -n hw.ncpu || echo 1)
-MAKEFLAGS += --jobs=$(CPUS)
 
 .PHONY: all docker
 all: clean run
