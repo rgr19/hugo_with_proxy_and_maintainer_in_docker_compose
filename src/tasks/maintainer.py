@@ -20,6 +20,7 @@ class Backuper(GitExecutor):
 		self.paths = paths
 
 	def init_backup(self, ):
+		print(self.paths)
 		for path in self.paths:
 			os.environ['GIT_REPOSITORY'] = path
 			logger.info(f"Initiate backup for DIR {path}...")
@@ -30,6 +31,7 @@ class Backuper(GitExecutor):
 		self.do_backup()
 
 	def do_backup(self, ):
+		print(self.paths)
 		for path in self.paths:
 			os.environ['GIT_REPOSITORY'] = path
 			logger.info(f"Try to backup in DIR {path}...")
