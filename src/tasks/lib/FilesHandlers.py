@@ -102,7 +102,11 @@ class FileExpandvarsWrite(object):
         FileWrite.guess_kind(fileDest, expandedText)
 
     @staticmethod
-    def by_envfile_to_file(envFilePath: str, tempFilePath: str, fileDest: str) -> None:
+    def by_envfile_to_file(envFilePath: str, tempFilePath: str = None, fileDest: str = None) -> None:
+        if tempFilePath is None:
+            tempFilePath = envFilePath
+        if fileDest is None:
+            fileDest = envFilePath
         tempFileText: str = open(tempFilePath, 'r').read()
         expandedText: str = TextExpandvars.by_envfile(envFilePath, tempFileText)
         FileWrite.guess_kind(fileDest, expandedText)

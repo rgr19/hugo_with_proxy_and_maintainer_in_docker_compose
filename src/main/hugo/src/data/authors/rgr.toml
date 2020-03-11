@@ -1,0 +1,14 @@
+id = "rgr"
+lang = "en"
+
+[email]
+username = ""
+host = ""
+
+[name]
+display = "<You Know Who>"
+
+[social]
+email = ""
+facebook  = ""
+twitter = ""

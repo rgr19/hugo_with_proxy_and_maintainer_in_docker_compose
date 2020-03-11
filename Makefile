@@ -2,12 +2,15 @@ all:  reload d b upd maintain logs
 clean: reload d
 .PHONY: all clean default
 
+SHELL := /usr/bin/env bash
+MAKEFLAGS += --jobs=3
+
 
 pip:
 	pip install -r requirements.txt
 
 reload:
-	echo '>>> [MAKE] reload'
+	echo '>>> [MAKE] reload with MAKEFLAGS=${MAKEFLAGS}'
 	python3.7 src/tasks/reload.py
 
 d: reload

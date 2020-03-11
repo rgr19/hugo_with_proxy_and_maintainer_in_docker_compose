@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/hugo/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/chalmers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/chalmers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera/images/certificates_2019-11-12_13-28-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera/images/certificates_2019-11-12_13-28-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera/images/index_2019-09-28-01-08-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera/images/index_2019-09-28-01-08-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera/images/index_2019-09-28-01-09-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera/images/index_2019-09-28-01-09-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera/images/index_2019-09-28-01-09-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera/images/index_2019-09-28-01-09-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera/images/index_2019-09-28-01-10-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera/images/index_2019-09-28-01-10-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_cbt8ju5nan7t.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_cbt8ju5nan7t.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_dw6wuj42927e.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_dw6wuj42927e.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_mdxlwzykyy6u.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_mdxlwzykyy6u.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_mtrjszncly6q.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_mtrjszncly6q.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_r7sjwd49dubg.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_r7sjwd49dubg.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_ufwzlrnerr2n.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_ufwzlrnerr2n.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_v2w3hu4hrt9b.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_v2w3hu4hrt9b.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/coursera_wjxa9kzscm34.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/coursera_wjxa9kzscm34.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/images/certificates_2019-11-12_13-28-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/images/certificates_2019-11-12_13-28-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/images/index_2019-09-28-01-08-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/images/index_2019-09-28-01-08-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/images/index_2019-09-28-01-09-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/images/index_2019-09-28-01-09-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/images/index_2019-09-28-01-09-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/images/index_2019-09-28-01-09-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/images/index_2019-09-28-01-10-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/images/index_2019-09-28-01-10-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/index/images/certificates_2019-11-12_13-28-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/index/images/certificates_2019-11-12_13-28-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/index/images/index_2019-09-28-01-08-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/index/images/index_2019-09-28-01-08-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/index/images/index_2019-09-28-01-09-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/index/images/index_2019-09-28-01-09-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/index/images/index_2019-09-28-01-09-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/index/images/index_2019-09-28-01-09-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/index/images/index_2019-09-28-01-10-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/index/images/index_2019-09-28-01-10-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/intyg.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/intyg.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/images/certificates_2019-11-12_13-28-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/images/certificates_2019-11-12_13-28-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/images/index_2019-09-28-01-08-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/images/index_2019-09-28-01-08-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/images/index_2019-09-28-01-09-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/images/index_2019-09-28-01-09-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/images/index_2019-09-28-01-09-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/images/index_2019-09-28-01-09-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/images/index_2019-09-28-01-10-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/images/index_2019-09-28-01-10-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-52-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-52-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-53-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-54-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-54-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-56-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-56-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-56-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-56-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-57-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-57-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-58-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-58-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-59-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-59-23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-59-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-04-23-59-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-00-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-00-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-00-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-00-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-01-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-01-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-01-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/linkedin/linkedin_cpp_test/images/index_2019-10-05-00-01-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome/images/certificates_2019-11-12_13-28-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome/images/certificates_2019-11-12_13-28-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome/images/index_2019-09-28-01-08-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome/images/index_2019-09-28-01-08-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome/images/index_2019-09-28-01-09-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome/images/index_2019-09-28-01-09-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome/images/index_2019-09-28-01-09-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome/images/index_2019-09-28-01-09-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/testdome/images/index_2019-09-28-01-10-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/testdome/images/index_2019-09-28-01-10-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/udemy_uc-n2cgtkbe.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/udemy_uc-n2cgtkbe.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/contributions/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/contributions/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/hackathons/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/hackathons/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/hackathons/images/index_2019-09-28-08-43-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/hackathons/images/index_2019-09-28-08-43-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/2019-09-05-19-24-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/2019-09-05-19-24-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/2019-09-05-19-28-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/2019-09-05-19-28-30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/25_docker_container_lifecycle_2019-09-05-19-33-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/25_docker_container_lifecycle_2019-09-05-19-33-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/experis_test_python3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/experis_test_python3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-12-01-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-12-01-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-13-26-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-13-26-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-13-27-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-13-27-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-13-28-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-13-28-44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-14-14-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-14-14-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-14-14-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-14-14-30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-14-20-49.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-14-20-49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-14-25-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-14-25-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08-14-26-33.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08-14-26-33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_09-48-59.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_09-48-59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_10-07-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_10-07-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_10-18-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_10-18-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_10-33-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_10-33-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_10-44-41.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_10-44-41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-08_10-46-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-08_10-46-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2019-09-18-22-02-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2019-09-18-22-02-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/index_2020-01-31-12-48-54.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/index_2020-01-31-12-48-54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/logo_minimo.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/logo_minimo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/images/selfie_cross_hatch_dlx.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/images/selfie_cross_hatch_dlx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/work/2019_2020_ericsson.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/work/2019_2020_ericsson.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/work/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/work/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/contact/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/draft_000.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/draft_000.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/draft_001.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/draft_001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/gallery/cartoon/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/gallery/cartoon/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/gallery/photo/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/gallery/photo/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/hugo/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/hugo/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/hugo/hugo-theme-zdoc.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/hugo/hugo-theme-zdoc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/hugo/hugo-theme-zzo.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/hugo/hugo-theme-zzo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notepad/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notepad/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/angular_notes/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/angular_notes/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/angular_notes/angular_data_binding.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/angular_notes/angular_data_binding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/angular_notes/images/angular_notes_2019-12-09_06-45-41.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/angular_notes/images/angular_notes_2019-12-09_06-45-41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_basics.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_basics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-12-22-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-12-22-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-13-05-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-13-05-44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-13-06-47.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_basics/images/ansible_2019-10-01-13-06-47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_project_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_project_structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-30-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-30-30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-59.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-31-59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-32-58.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-32-58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-34-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_roles/images/ansible_roles_2019-12-14-00-34-55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/ansible_tags.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/ansible_tags.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/templates/ini.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/copy/templates/ini.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/cron/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/filter_plugins/inheritance_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/filter_plugins/inheritance_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/firewall/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/firewall/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/firewall/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/firewall/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/kernel_params/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/kernel_params/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/lookup_plugins/inheritance_chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/lookup_plugins/inheritance_chain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/packages/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/packages/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/packages/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/packages/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/library/README" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/library/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/library/zfs_delegate_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/library/zfs_delegate_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/paths/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/remote_management/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/remote_management/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/remote_management/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/remote_management/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/required_vars/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/required_vars/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/requiretty/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/requiretty/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/tasks/linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/tasks/linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/templates/resolv.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/resolv/templates/resolv.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/services/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/services/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/services/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/services/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/tasks/smartos_zone_openssh.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/tasks/smartos_zone_openssh.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/_smartos_zone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/_smartos_zone.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/redhat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssh/vars/redhat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/ca.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/ca.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/cert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/cert.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/distribute.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/distribute.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/gen-ca.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/gen-ca.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/gen-cert.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/gen-cert.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/templates/extfile.cnf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/ssl/templates/extfile.cnf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/package.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/virtualenv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/tasks/virtualenv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/centos.init.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/centos.init.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/debian.init.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/debian.init.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/redhat.init.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/redhat.init.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/supervisord.conf.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/supervisord.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/systemd.init.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/systemd.init.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/ubuntu.init.j2" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/templates/ubuntu.init.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/debian_package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/debian_package.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/redhat_package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/redhat_package.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/virtualenv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/supervisor/vars/virtualenv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/timezone/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/non-solaris.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/non-solaris.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/solaris.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/solaris.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/ssh.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/users/tasks/ssh.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/files/ebs-nvme-mapping.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/files/ebs-nvme-mapping.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-common-roles/virtual/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/group_vars/all" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/group_vars/all" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/install.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/A/config/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/A/config/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/A/install/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/A/install/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/config/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/config/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/install/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/install/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/roles/B/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/sample_inventory" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ansible-nested-roles/sample_inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/ini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/lockfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/lockfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/parentclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/parentclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/github/sshagent.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/github/sshagent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_notes/images/ansible_notes_2019-11-08_22-06-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_notes/images/ansible_notes_2019-11-08_22-06-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ansible_ten_important_features.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ansible_ten_important_features.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-01-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-01-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-02-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-02-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-03-49.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-03-49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-23-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-23-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-41-56.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-41-56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-42-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-42-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-42-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-42-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-43-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-43-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-45-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-45-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-49-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-49-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-50-47.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-50-47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-50-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-50-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-51-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-51-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-52-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-52-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-53-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-53-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-54-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash/bash_kainos_crack_the_code/images/bash_kainos_crack_the_code_2019-09-23-15-54-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash_hacks.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash_hacks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash_parallel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash_parallel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash_shortctus.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash_shortctus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/bash_tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/bash_tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cloud-init/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cloud-init/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cloud_init.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cloud_init.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cmake.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cmake.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cpp_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cpp_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cpp_pointer_to_const_vs_const_pointer.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cpp_pointer_to_const_vs_const_pointer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cpp_tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cpp_tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/cpp_tools/images/cpp_tools_2019-11-07_08-20-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/cpp_tools/images/cpp_tools_2019-11-07_08-20-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/design_patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/design_patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/django_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/django_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-07-46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-37.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-08-37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-09-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-09-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-09-57.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fdisk/images/fdisk_2019-09-23-20-09-57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/fstab.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/fstab.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/git_submodules.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/git_submodules.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/git/images/git_2019-09-18-19-09-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/git/images/git_2019-09-18-19-09-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/intel_xeon_phi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/intel_xeon_phi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/java_datastructures_complexity.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/java_datastructures_complexity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/java_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/java_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/job_interview_questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/job_interview_questions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/linking.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/linking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/maven.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/maven.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/maven/images/maven_2019-09-18-19-12-31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/miniconda.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/miniconda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/mpi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/mpi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/openmp.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/openmp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/paddle.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/paddle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/django/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/django/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/images/index_2019-11-03_17-20-47.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/images/index_2019-11-03_17-20-47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/multitasking_python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/multitasking_python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_concurrency_threading_multiprocessing.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_concurrency_threading_multiprocessing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_for_else.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_for_else.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_hacks.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_hacks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_multiline_shebang.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_multiline_shebang.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_slots.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_slots.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/python_time_complexity.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/python_time_complexity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/slots_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/slots_benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/python_notes/thread_sync_with_mutex.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/python_notes/thread_sync_with_mutex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/rpm_nodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/rpm_nodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/rpm_packaging_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/rpm_packaging_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/rpm_packaging_notes/images/rpm_packaging_notes_2019-11-08_22-56-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/rpm_packaging_notes/images/rpm_packaging_notes_2019-11-08_22-56-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/set_facts_ansible_limit.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/set_facts_ansible_limit.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/sql_notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/sql_notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ssh.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ssh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/ssh/images/ssh_2019-09-24-15-22-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/ssh/images/ssh_2019-09-24-15-22-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/subshells.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/subshells.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemctl.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemctl.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemctl_chkconfig_on_boot.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemctl_chkconfig_on_boot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_analyze.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_analyze.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-03-33.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-03-33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-04-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-04-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-04-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_analyze/images/systemd_analyze_2019-11-28_20-04-31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_cloudinit.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_cloudinit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_network_target.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_network_target.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/systemd_service.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/systemd_service.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/b93fecb3-ubuntu-manuals-lockup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/b93fecb3-ubuntu-manuals-lockup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/brand" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/brand" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/bug.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/bug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/vanilla-framework-version-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/systemd/ubuntu_manpage__systemd.service_-_service_unit_configuration_files/vanilla-framework-version-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tar_archives.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tar_archives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tmux.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tmux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/csh.gif" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/csh.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/csh_stealth.gif" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/csh_stealth.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/tools_2019-12-07_22-03-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/tools_2019-12-07_22-03-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/tools_2019-12-07_22-03-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/tools_2019-12-07_22-03-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/tools_2019-12-07_22-07-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/tools_2019-12-07_22-07-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/tools/images/tools_2019-12-07_22-08-51.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/tools/images/tools_2019-12-07_22-08-51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/unix_files.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/unix_files.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/users_and_permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/users_and_permissions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/vim.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/vim.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/visual_code.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/visual_code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/visual_code/images/visual_code_2019-12-17-19-27-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/visual_code/images/visual_code_2019-12-17-19-27-44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/visual_code/visual_code_2019-08-02_22-24-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/visual_code/visual_code_2019-08-02_22-24-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/vizdoom.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/vizdoom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/notes/yum.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/notes/yum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/practical_questions/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/practical_questions/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/practical_questions/practical_questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/practical_questions/practical_questions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/emoji-support.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/emoji-support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/markdown-syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/markdown-syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/math-typesetting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/math-typesetting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/rich-content.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/rich-content.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/shortcodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/shortcodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/syntax-highlight.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/syntax-highlight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-chartjs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-chartjs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-flowchart.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-flowchart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-js-sequence-diagrams.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-js-sequence-diagrams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-katex.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-katex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-mathjax.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-mathjax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-mermaid.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-mermaid.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-viz.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-viz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/posts/shortcodes/test-wavedrom.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/shortcodes/test-wavedrom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/presentation/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/presentation/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/presentation/dir/fourth.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/presentation/dir/fourth.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/presentation/first.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/presentation/first.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/presentation/second.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/presentation/second.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/presentation/third.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/presentation/third.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/article/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/article/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/article/article_any_folder_name_1/cite.bib" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/article/article_any_folder_name_1/cite.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/article/article_any_folder_name_1/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/article/article_any_folder_name_1/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/book/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/book/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/book/book_any_folder_name_1/cite.bib" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/book/book_any_folder_name_1/cite.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/book/book_any_folder_name_1/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/book/book_any_folder_name_1/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/misc/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/misc/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/misc/misc_any_folder_name_1/cite.bib" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/misc/misc_any_folder_name_1/cite.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/publication/misc/misc_any_folder_name_1/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/publication/misc/misc_any_folder_name_1/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/hugo/hugo-theme-zdoc.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/hugo/hugo-theme-zdoc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/hugo/hugo-theme-zzo.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/hugo/hugo-theme-zzo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/hugo/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/hugo/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/ideas.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/ideas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/packages/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/packages/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/projects/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/projects/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/archive/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/archive/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo/exampleSite/content/en/archive/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo/exampleSite/content/en/archive/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/no_format_upload.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/run copy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/tasks/run.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="b9ca54fd-6c99-439d-a485-059971eb9f82" />
+  <component name="ProjectId" id="1YleW7vLuwpkWTvYe7mf0hzgG14" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/content/en/study/courses/devops/udemy/deploy_and_run_apps_with_docker_kubernetes_helm_rancher/codes/todo-app/todo-app/src/todo-view/node_modules/typescript/lib" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/hugo/src/config/_default/params.toml" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/hugo/src/themes/minimus/data" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/en" />
+      <recent name="$PROJECT_DIR$/src/main/hugo/tasks/.deprecated" />
+      <recent name="$PROJECT_DIR$/src/main/hugo/.draft" />
+      <recent name="$PROJECT_DIR$/content/draft/content" />
+      <recent name="$PROJECT_DIR$/content/draft/en" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/hugo/src/layouts" />
+      <recent name="$PROJECT_DIR$/src/hugo/src" />
+      <recent name="$PROJECT_DIR$/src/hugo/src/archetypes" />
+      <recent name="$PROJECT_DIR$/content/draft/en" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.all">
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="reload_env" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="reload_env" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="onceawaken" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/maintainer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/git/src/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="onceawaken" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks/.handlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks/.handlers/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.all" />
+        <item itemvalue="Makefile.reload_env" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="" />
+      <created>1583521636393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583521636393</updated>
+      <workItem from="1583521644453" duration="23081000" />
+      <workItem from="1583574553902" duration="2697000" />
+      <workItem from="1583577262315" duration="17435000" />
+      <workItem from="1583600336676" duration="46339000" />
+      <workItem from="1583704657652" duration="40612000" />
+      <workItem from="1583839730130" duration="24556000" />
+      <workItem from="1583877798947" duration="19115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="697" y="346" width="525" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583653745756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="697" y="346" width="525" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583653745756" />
+    <state x="555" y="201" width="800" height="686" key="#com.intellij.ide.actionMacro.EditMacrosDialog" timestamp="1583657815481">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="201" width="800" height="686" key="#com.intellij.ide.actionMacro.EditMacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583657815481" />
+    <state x="687" y="0" width="1035" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583759559988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="687" y="0" width="1035" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583759559988" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1583918557866">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583918557866" />
+    <state x="732" y="306" width="424" height="493" key="FileChooserDialogImpl" timestamp="1583929475065">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="306" width="424" height="493" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583929475065" />
+    <state width="918" height="99" key="GridCell.Tab.0.bottom" timestamp="1583786143400">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="918" height="99" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583786143400" />
+    <state width="918" height="99" key="GridCell.Tab.0.center" timestamp="1583786143400">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="918" height="99" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583786143400" />
+    <state width="918" height="99" key="GridCell.Tab.0.left" timestamp="1583786143400">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="918" height="99" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583786143400" />
+    <state width="918" height="99" key="GridCell.Tab.0.right" timestamp="1583786143400">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="918" height="99" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583786143400" />
+    <state x="464" y="175" width="992" height="739" key="SettingsEditor" timestamp="1583958160470">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="175" width="992" height="739" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583958160470" />
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583918557866">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583918557866" />
+    <state x="100" y="100" width="1719" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583918139063">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1719" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583918139063" />
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1583877799719">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="643" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583877799719" />
+    <state x="613" y="154" width="683" height="781" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583835360657">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="613" y="154" width="683" height="781" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583835360657" />
+    <state x="635" y="124" width="1242" height="684" key="find.popup" timestamp="1583835800631">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="635" y="124" width="1242" height="684" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583835800631" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1583664234528">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583664234528" />
+    <state x="685" y="444" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583927400914">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="444" width="540" height="201" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583927400914" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onceawaken$app.coverage" NAME="app Coverage Results" MODIFIED="1583527724885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/maintainer" />
+    <SUITE FILE_PATH="coverage/onceawaken$reload_env.coverage" NAME="reload_env Coverage Results" MODIFIED="1583585114492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tasks/.handlers" />
+  </component>
+</project>

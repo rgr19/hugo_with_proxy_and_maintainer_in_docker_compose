@@ -14,7 +14,7 @@ services:
       - ./src/main/hugo:${HUGO_HOME}:ro
       - ./output/hugo/public:${HUGO_OUTPUT}:rw
       - ./content/draft:${HUGO_CONTENT}:ro
-      - ./cache/hugo/resources:${HUGO_RESOURCES}/:rw
+      - ./cache/hugo/resources:${HUGO_RESOURCES}:rw
     restart: always
     ports:
       - 1313

@@ -7,7 +7,6 @@ import coloredlogs
 from lib.FilesHandlers import EnvRead, EnvWrite, Env, FileExpandvarsWrite, YamlRewrite
 
 logger = logging.getLogger(__name__)
-
 logger.info("Hello logging!")
 
 
@@ -25,6 +24,7 @@ def merge_env_files_in_cwd(envFileDest, *envFilesSrc: str):
 	for envFile in envFilesSrc:
 		envVars.update(EnvRead.as_dict(envFile))
 	EnvWrite(envFileDest, Env.dict_to_env_lines(envVars))
+	FileExpandvarsWrite.by_envfile_to_file(envFileDest)
 
 
 def find_env_files(path: str):
@@ -39,7 +39,6 @@ def main():
 	envFilesSrc = find_env_files("./src/main")
 	merge_env_files_in_cwd(envFileDest, *envFilesSrc)
 	expandvars_in_docker_compose(envFileDest, "./src/tasks/templates", "./")
-
 
 
 if __name__ == '__main__':

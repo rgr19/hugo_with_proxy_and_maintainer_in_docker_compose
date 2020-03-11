@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/git" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tasks/docker-compose" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tasks/maintainer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tasks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tasks/lib" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/content/draft" />
+      <excludeFolder url="file://$MODULE_DIR$/output" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (py37_hugo)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/src/content/courses/cloud/helm/15_helm_aquasec_everything_to_know_about_kubernetes_helm/examples/use_helm_create/demo/templates" />
+      </list>
+    </option>
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>

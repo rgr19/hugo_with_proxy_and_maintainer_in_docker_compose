@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6180f334-fd3c-46d7-8661-3a9edee4f52d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/tutorials/Docker/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/2019-07-22-13-21-36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/5_Kubernetes_Deploy_Service_Guestbook_Storing_In_Redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/6_Kubernetes_Networking_Internal_and_External.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tutorials/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/clusters/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/clusters/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/clusters/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/distributed-system/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/distributed-system/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/distributed-system/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker-compose/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker-compose/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker-compose/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/docker/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/hugo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/hugo/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/java-script/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/java-script/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/java-script/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/katacoda/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/katacoda/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/katacoda/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/kubernetes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/kubernetes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/kubernetes/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/networking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/networking/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/networking/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/nginx/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/nginx/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/node.js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/node.js/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/node.js/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/notes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/notes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/notes/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/redis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/redis/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/redis/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/setup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/setup/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/setup/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/shortcodes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/shortcodes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/shortcodes/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-primary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-primary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/brand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-danger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-primary.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-warning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/notes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/notes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/notes/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/notes/tar_archives/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/.dockerignore/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/.dockerignore/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/.dockerignore/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/archives/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/archives/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/archives/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bash/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bash/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bash/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bulma/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bulma/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/bulma/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/cluster-ip/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/cluster-ip/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/cluster-ip/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/code/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/code/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/curl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/curl/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/curl/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/deployments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/deployments/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/deployments/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-ip/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-ip/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-ip/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-services/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-services/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/external-services/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/images/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/images/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/install/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/install/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/install/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubeadm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubeadm/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubeadm/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubectl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubectl/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/kubectl/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/layout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/layout/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/layout/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/libvirt/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/libvirt/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/libvirt/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/media/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/media/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/media/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/minikube/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/minikube/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/minikube/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-node/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-node/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-node/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-nodes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-nodes/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/multi-nodes/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/node-ports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/node-ports/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/node-ports/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/pygments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/pygments/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/pygments/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/replicas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/replicas/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/replicas/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/services/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/services/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/services/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/systemctl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/systemctl/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/systemctl/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/tar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/tar/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/tar/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/target-ports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/target-ports/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/target-ports/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/text/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/text/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/text/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/virt-manager/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/virt-manager/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/virt-manager/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/yaml/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/yaml/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/views/error.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/views/index.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/Docker/Nodejs_App/views/layout.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/0_docker_setup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/10_persisting_data_using_volumes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/11_docker_managing_log_files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/12_docker_ensuring_uptime_when_crash/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/13_docker_metadata_and_labels/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/14_load_balancing_containers_with_nginx_proxy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/15_orchestration_using_docker_compose/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/16_docker_stats_cpu_memory_metrics/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/17_docker_creating_optimised_images_using_multi-state_builds/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/18_docker_formatting_ps_output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/19_docker_run_docker_from_rootless_users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/1_docker_redis_database/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/20_docker_swarm_mode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/21_docker_and_makefiles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/22_docker_macvlan_networks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/23_docker_cmd_and_entrypoint/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/24_docker_signals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/25_docker_container_lifecycle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/26_docker_registry/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/2_docker_static_html_website_as_container/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/3_docker_building_container_images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/4_dockerizing_nodejs_apps/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/5_optimising_dockerfile_with_onbuild/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/6_docker_ignoring_files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/7_docker_data_containers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/8_docker_communicating_between_redis_key_datastore_containers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/docker/9_docker_networks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/banners/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/blockquotes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/builtin-shortcodes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/figures/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/hosting-gitlab-pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/install-overview/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/messages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/notifications/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/hugo_capsule/syntax-highlighting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/karaf/playing_with_karaf_console/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/0_kubernetes_installation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/0_kubernetes_katacoda_toc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/18_kubernetes_external_services/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/1_kubernetes_single_node_cluster/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/2_kubernetes_kubeadm_launch_multi_node_cluster/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/3_kubernetes_kubectl_start_containers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/4_kubernetes_deploy_containers_using_yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/5_kubernetes_deploy_service_guestbook_storing_in_redis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/kubernetes/6_kubernetes_networking_internal_and_external/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tutorials/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/capsule/static/css/syntax.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/minimo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/minimo/layouts/partials/sections-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/0_Docker_Setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/0_Docker_Setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/10_Persisting_Data_Using_Volumes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/10_Persisting_Data_Using_Volumes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/11_Docker_Managing_Log_Files.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/11_Docker_Managing_Log_Files.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/12_Docker_Ensuring_Uptime_When_Crash.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/12_Docker_Ensuring_Uptime_When_Crash.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/13_Docker_Metadata_and_Labels.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/13_Docker_Metadata_and_Labels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/14_Load_Balancing_Containers_with_Nginx_Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/14_Load_Balancing_Containers_with_Nginx_Proxy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/15_Orchestration_using_Docker_Compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/15_Orchestration_using_Docker_Compose.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/16_Docker_Stats_CPU_Memory_Metrics.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/16_Docker_Stats_CPU_Memory_Metrics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/17_Docker_Creating_Optimised_Images_Using_Multi-State_Builds.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/17_Docker_Creating_Optimised_Images_Using_Multi-State_Builds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/18_Docker_formatting_PS_output.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/18_Docker_formatting_PS_output.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/19_Docker_Run_Docker_From_Rootless_Users.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/19_Docker_Run_Docker_From_Rootless_Users.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/1_Docker_Redis_Database.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/1_Docker_Redis_Database.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/20_Docker_Swarm_Mode.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/20_Docker_Swarm_Mode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/21_Docker_and_Makefiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/21_Docker_and_Makefiles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/22_Docker_Macvlan_Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/22_Docker_Macvlan_Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/23_Docker_CMD_and_ENTRYPOINT.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/23_Docker_CMD_and_ENTRYPOINT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/24_Docker_Signals.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/24_Docker_Signals.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/25_Docker_Container_Lifecycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/25_Docker_Container_Lifecycle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/26_Docker_Registry.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/26_Docker_Registry.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/2_Docker_Static_HTML_Website_as_Container.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/2_Docker_Static_HTML_Website_as_Container.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/3_Docker_Building_Container_Images.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/3_Docker_Building_Container_Images.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/4_Dockerizing_Nodejs_Apps.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/4_Dockerizing_Nodejs_Apps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/5_Optimising_Dockerfile_with_OnBuild.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/5_Optimising_Dockerfile_with_OnBuild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/6_Docker_Ignoring_Files.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/6_Docker_Ignoring_Files.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/7_Docker_Data_Containers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/7_Docker_Data_Containers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/8_Docker_Communicating_Between_Redis_Key_Datastore_Containers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/8_Docker_Communicating_Between_Redis_Key_Datastore_Containers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Docker/9_Docker_Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Docker/9_Docker_Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/banners.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/banners.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/blockquotes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/blockquotes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/builtin-shortcodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/builtin-shortcodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/figures.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/figures.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/install-overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/install-overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/messages.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/messages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/notifications.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/notifications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/syntax-highlighting.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/syntax-highlighting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/table-of-contents.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Hugo_Capsule/table-of-contents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/0_Kubernetes_Installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/0_Kubernetes_Installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/0_Kubernetes_Katacoda_TOC.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/0_Kubernetes_Katacoda_TOC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/1_Kubernetes_Single_Node_Cluster.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/1_Kubernetes_Single_Node_Cluster.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/2_Kubernetes_Kubeadm_Launch_Multi_Node_Cluster.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/2_Kubernetes_Kubeadm_Launch_Multi_Node_Cluster.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/3_Kubernetes_Kubectl_Start_Containers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/3_Kubernetes_Kubectl_Start_Containers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tutorials/Kubernetes/4_Kubernetes_Deploy_Containers_Using_YAML.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/tutorials/Kubernetes/4_Kubernetes_Deploy_Containers_Using_YAML.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/capsule/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/capsule/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/minimo/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/minimo/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/minimo/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/minimo/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/minimo/layouts/page/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/minimo/layouts/page/archive.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/capsule.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OnPnNT0SzyIpqzoMQwGk9TPVSx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/tutorials/Hugo_Capsule" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/minimo/layouts/partials" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/tutorials/Hugo_Capsule" />
+      <recent name="$PROJECT_DIR$/content/tutorials/Docker" />
+      <recent name="$PROJECT_DIR$/content/tutorials/Karaf" />
+      <recent name="$PROJECT_DIR$/content/tutorials/Kubernetes" />
+      <recent name="$PROJECT_DIR$/content/tutorials" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

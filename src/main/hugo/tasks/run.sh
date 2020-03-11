@@ -9,9 +9,15 @@ ls -la $HUGO_TASKS
 echo "[INFO] Content of DIR HUGO_SOURCE"
 ls -la $HUGO_SOURCE
 
+IS_BUILT=false
+
 while true; do
 	# shellcheck disable=SC1090
 	. ${HUGO_TASKS}/hugo_common.sh
+
+	if [ "$IS_BUILT" == 'false' ]; then
+		hugo common $@ && IS_BUILT=true || true
+	fi
 
 	ls -la ${HUGO_SOURCE}
 	echo "[INFO] Hugo MAIN loop..."
