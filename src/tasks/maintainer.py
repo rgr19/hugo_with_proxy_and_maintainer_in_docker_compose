@@ -31,13 +31,15 @@ class Backuper(GitExecutor):
 		self.do_backup()
 
 	def do_backup(self, ):
+		rval = True
 		for path in self.paths:
 			logger.info(f"Try to backup in DIR {path}")
 			try:
 				self.git_add_all(path)
-				return self.git_commit(path)
+				rval &= self.git_commit(path)
 			except Exception as err:
 				logger.error(f"Backup did not succeed : {err}.")
+		return rval
 
 
 def hugo_content_formatter(directory, excludedDirs=None, excludedFiles=None, includedExtensionsGlobs=None):
