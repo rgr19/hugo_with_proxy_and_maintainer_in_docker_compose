@@ -4,6 +4,7 @@
     <list default="true" id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/hugo/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content" beforeDir="false" afterPath="$PROJECT_DIR$/content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/about/work/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/work/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/posts/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/hugo/public/en/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/hugo/public/en/posts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/hugo/public/en/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/hugo/public/en/showcase/index.html" afterDir="false" />
@@ -154,7 +155,7 @@
       <workItem from="1583600336676" duration="46339000" />
       <workItem from="1583704657652" duration="40612000" />
       <workItem from="1583839730130" duration="24556000" />
-      <workItem from="1583877798947" duration="20361000" />
+      <workItem from="1583877798947" duration="20382000" />
     </task>
     <servers />
   </component>
