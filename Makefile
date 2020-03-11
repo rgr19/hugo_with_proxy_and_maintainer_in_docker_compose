@@ -1,4 +1,4 @@
-all:  reload d b upd maintain logs
+all:  reload d b up maintain
 clean: reload d
 .PHONY: all clean default
 
@@ -16,6 +16,7 @@ reload:
 d: reload
 	echo '>>> [MAKE] d'
 	docker-compose down --remove-orphans
+	docker rm blog-proxy blog-hugo -f || true
 
 b: reload d
 	echo '>>> [MAKE] b'
@@ -25,14 +26,10 @@ up: reload d b
 	echo '>>> [MAKE] up'
 	docker-compose up
 
-upd: reload d b
-	echo '>>> [MAKE] upd'
-	docker-compose up -d
-
-logs: reload d b upd
+logs: reload d b
 	echo '>>> [MAKE] logs'
 	docker-compose logs -f
 
-maintain: reload d b upd
+maintain: reload d b
 	echo '>>> [MAKE] maintain'
 	python3.7 src/tasks/maintainer.py

@@ -2,6 +2,7 @@ version: "3.7"
 
 services:
   blog-hugo:
+    container_name: blog-hugo
     image: 'blog-hugo:${HUGO_VERSION}'
     build:
       context: src/main/hugo

@@ -1,9 +1,0 @@
----
-- name: This is a hello-world example on host {{ target }}
-  hosts: target
-  tasks:
-    - name: Example setting host facts using complex arguments
-      set_fact:
-        ansible_limit: other_host
-
-- name: Try to execute on other host
