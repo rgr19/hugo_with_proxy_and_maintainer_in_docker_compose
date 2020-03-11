@@ -28,9 +28,9 @@ docker_build:
 	docker build \
 		--tag blog-docker \
 		--build-arg HUGO_VERSION=${HUGO_VERSION} \
-        --build-arg HUGO_TYPE=${HUGO_TYPE} \
-        --build-arg HUGO_HOME=${HUGO_HOME} \
-        .
+		--build-arg HUGO_TYPE=${HUGO_TYPE} \
+		--build-arg HUGO_HOME=${HUGO_HOME} \
+		.
 
 docker_run: docker_build
 	docker run \
