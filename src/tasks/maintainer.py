@@ -1,5 +1,4 @@
 import argparse
-import os
 import sys
 import time
 
@@ -99,7 +98,6 @@ def main(argv):
 
 	formatterKwargs['directory'] = PROJECT_CONTENT
 	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT)
-
 
 	logger.info("Maintainer begin LOOP:")
 	while True:
