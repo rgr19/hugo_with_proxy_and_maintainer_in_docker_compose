@@ -71,6 +71,7 @@ class Executor(object):
 	def with_cwd(self, cwd, *subcwd):
 		subcwd = filter(None.__ne__, subcwd)
 		self.cwd = os.path.join(cwd, *subcwd)
+		logger.error(self.cwd)
 		return self
 
 	def with_args(self, *args):

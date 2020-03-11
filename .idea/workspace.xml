@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/hugo/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content" beforeDir="false" afterPath="$PROJECT_DIR$/content" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/about/work/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/work/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/contact/index.md" afterDir="false" />
@@ -14,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/no_format_upload.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/run copy.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/tasks/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/lib/Executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/lib/Executor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,7 @@
       <workItem from="1583600336676" duration="46339000" />
       <workItem from="1583704657652" duration="40612000" />
       <workItem from="1583839730130" duration="24556000" />
-      <workItem from="1583877798947" duration="23633000" />
+      <workItem from="1583877798947" duration="23886000" />
     </task>
     <servers />
   </component>
