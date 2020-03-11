@@ -39,7 +39,7 @@ class GitExecutor(ExecutorCallerAbstract):
 		return self(self.INIT).with_flags(self.SHARED).with_args(*argv).spawn()
 
 	def git_add_all(self, *argv) -> bool:
-		return self(self.ADD).with_flags(self.ALL, self.FORCE).with_args(*argv).spawn()
+		return self(self.ADD).with_flags(self.ALL).with_args(*argv).spawn()
 
 	def git_commit(self, *argv) -> bool:
 		commitMessage = '{:%Y_%m_%d_%H_%M_%S}'.format(datetime.now())

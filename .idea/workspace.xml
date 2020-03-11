@@ -3,11 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/hugo/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content" beforeDir="false" afterPath="$PROJECT_DIR$/content" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/about/work/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/work/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/contact/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/posts/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/posts/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/css/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/en/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/ko/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/hugo/public/sitemap.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Makefile" afterDir="false" />
@@ -29,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/hugo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="JupyterTrust" id="b9ca54fd-6c99-439d-a485-059971eb9f82" />
   <component name="ProjectId" id="1YleW7vLuwpkWTvYe7mf0hzgG14" />
@@ -155,7 +171,7 @@
       <workItem from="1583600336676" duration="46339000" />
       <workItem from="1583704657652" duration="40612000" />
       <workItem from="1583839730130" duration="24556000" />
-      <workItem from="1583877798947" duration="22573000" />
+      <workItem from="1583877798947" duration="22888000" />
     </task>
     <servers />
   </component>
