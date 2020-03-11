@@ -164,5 +164,5 @@ class Executor(object):
 class ExecutorCallerAbstract(abc.ABC):
 
 	@abc.abstractmethod
-	def __call__(self, subcommand: str = None) -> Executor:
+	def __call__(self, *args, **kwargs) -> Executor:
 		pass

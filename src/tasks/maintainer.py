@@ -20,24 +20,20 @@ class Backuper(GitExecutor):
 		self.paths = paths
 
 	def init_backup(self, ):
-		print(self.paths)
 		for path in self.paths:
-			os.environ['GIT_REPOSITORY'] = path
-			logger.info(f"Initiate backup for DIR {path}...")
-			self.git_init_shared()
+			logger.info(f"Initiate backup for DIR {path}")
+			self.git_init_shared(path)
 			logger.info("Config backup DB...")
 			for config in self.configs:
 				self.git_config(*config)
 		self.do_backup()
 
 	def do_backup(self, ):
-		print(self.paths)
 		for path in self.paths:
-			os.environ['GIT_REPOSITORY'] = path
-			logger.info(f"Try to backup in DIR {path}...")
+			logger.info(f"Try to backup in DIR {path}")
 			try:
-				self.git_add_all()
-				return self.git_commit()
+				self.git_add_all(path)
+				return self.git_commit(path)
 			except Exception as err:
 				logger.error(f"Backup did not succeed : {err}.")
 
