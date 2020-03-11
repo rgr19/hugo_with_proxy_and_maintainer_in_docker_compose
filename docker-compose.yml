@@ -16,7 +16,7 @@
     "volumes":
     - "./src/main/hugo:/hugo:ro"
     - "./output/hugo/public:/srv/hugo/output:rw"
-    - "./content/draft:/srv/hugo/content:ro"
+    - "./content:/srv/hugo/content:ro"
     - "./cache/hugo/resources:/hugo/src/resources:rw"
   "blog-proxy":
     "build":

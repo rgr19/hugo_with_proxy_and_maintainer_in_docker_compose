@@ -11,10 +11,10 @@ services:
         - HUGO_TYPE=${HUGO_TYPE}
         - HUGO_HOME=${HUGO_HOME}
     volumes:
-      - ./src/main/hugo:${HUGO_HOME}:ro
-      - ./output/hugo/public:${HUGO_OUTPUT}:rw
-      - ./content/draft:${HUGO_CONTENT}:ro
-      - ./cache/hugo/resources:${HUGO_RESOURCES}:rw
+      - ./${HOST_HUGO_ROOT}:${HUGO_HOME}:ro
+      - ./${HOST_HUGO_OUTPUT}:${HUGO_OUTPUT}:rw
+      - ./${HOST_HUGO_CONTENT}:${HUGO_CONTENT}:ro
+      - ./${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw
     restart: always
     ports:
       - 1313
@@ -31,8 +31,8 @@ services:
       context: src/main/proxy
       dockerfile: Dockerfile
     volumes:
-      - ./src/main/proxy:/nginx:ro
-      - ./src/main/proxy/src/conf.d:/etc/nginx/conf.d:ro
+      - ./${HOST_PROXY_ROOT}:/nginx:ro
+      - ./${HOST_PROXY_CONFD}:/etc/nginx/conf.d:ro
     ports:
       - 80:80
       - 8080:8080

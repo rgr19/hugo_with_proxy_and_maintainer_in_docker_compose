@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="958de73e-133c-439a-82aa-2073369e0a8d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/hugo/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content" beforeDir="false" afterPath="$PROJECT_DIR$/content" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/draft/content/en/about/certificates/chalmers.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/certificates/chalmers.md" afterDir="false" />
@@ -360,11 +359,11 @@
       <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/packages/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/packages/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/draft/content/en/showcase/projects/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/showcase/projects/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/en/archive/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/archive/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo/exampleSite/content/en/archive/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hugo/src/themes/zzo/exampleSite/content/en/archive/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/no_format_upload.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/hugo/tasks/run copy.sh" beforeDir="false" />
@@ -398,7 +397,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/hugo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -420,11 +419,11 @@
       <recent name="$PROJECT_DIR$/content/draft/en" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/hugo" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/hugo/src/layouts" />
       <recent name="$PROJECT_DIR$/src/hugo/src" />
       <recent name="$PROJECT_DIR$/src/hugo/src/archetypes" />
-      <recent name="$PROJECT_DIR$/content/draft/en" />
     </key>
   </component>
   <component name="RunManager" selected="Makefile.all">
@@ -509,7 +508,7 @@
       <workItem from="1583600336676" duration="46339000" />
       <workItem from="1583704657652" duration="40612000" />
       <workItem from="1583839730130" duration="24556000" />
-      <workItem from="1583877798947" duration="19115000" />
+      <workItem from="1583877798947" duration="19918000" />
     </task>
     <servers />
   </component>
@@ -553,10 +552,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="918" height="99" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583786143400" />
-    <state x="464" y="175" width="992" height="739" key="SettingsEditor" timestamp="1583958160470">
+    <state x="464" y="175" width="992" height="739" key="SettingsEditor" timestamp="1583959386642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="464" y="175" width="992" height="739" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583958160470" />
+    <state x="464" y="175" width="992" height="739" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583959386642" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583918557866">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
