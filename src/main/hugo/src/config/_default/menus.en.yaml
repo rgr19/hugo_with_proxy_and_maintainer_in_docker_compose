@@ -3,12 +3,12 @@ main:
     name: About
     url: about
     weight: 1
-  - parent: about
-    name: Certificates
-    url: about/certificates
-  - parent: about
-    name: Hackathons
-    url: about/hackathons
+#  - parent: about
+#    name: Certificates
+#    url: about/certificates
+#  - parent: about
+#    name: Hackathons
+#    url: about/hackathons
 #
 #  - identifier:  archive
 #    name: Archive
