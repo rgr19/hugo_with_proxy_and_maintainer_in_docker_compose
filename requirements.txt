@@ -1,0 +1,6 @@
+coloredlogs
+datas
+gunicorn
+falcon
+pyyaml
+requests

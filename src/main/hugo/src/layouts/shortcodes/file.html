@@ -1,0 +1,78 @@
+{{- if gt ( len .Params ) 2 -}}
+{{- $.Scratch.Set "startline" ( .Get 2 ) -}}
+{{- else -}}
+{{- $.Scratch.Set "startline" 0 -}}
+{{- end -}}
+
+{{- if gt ( len .Params ) 1 -}}
+{{- $.Scratch.Set "format" ( .Get 1 ) -}}
+{{- else -}}
+{{- $splits := ( split ( .Get 0 ) "." ) -}}
+{{- $splitsLength := ( len $splits ) -}}
+{{- $format := ( index $splits ( sub $splitsLength 1 ) ) -}}
+{{- $.Scratch.Set "format" $format -}}
+{{- end -}}
+
+{{- $file := ( .Get 0 ) -}}
+
+{{/* Get the filepath */}}
+{{/* If the first character is "/", the path is from the sites `baseURL`. */}}
+{{ if eq ( $file | printf "%.1s") "/" }}
+
+{{/* Use Hugo `readfile` behavior of path from sites `baseURL`. */}}
+{{ $.Scratch.Set "filepath" ( $file ) }}
+
+{{ else }}
+
+{{/* Make relative: Fetch the current directory and then append it to the specified `file=""` value */}}
+{{ $.Scratch.Set "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Page.Dir ) }}
+{{ $.Scratch.Add "filepath" ( $file ) }}
+
+{{ if not (fileExists ($.Scratch.Get "filepath"  )) }}
+{{ $.Scratch.Set "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Page.Dir ) }}
+{{ $.Scratch.Add "filepath" ( $.Page.File.TranslationBaseName ) }}
+{{ $.Scratch.Add "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $file ) }}
+{{ end }}
+
+{{ if not (fileExists ($.Scratch.Get "filepath"  )) }}
+{{ $.Scratch.Set "filepath" "/content" }}
+{{ $.Scratch.Add "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Page.Dir ) }}
+{{ $.Scratch.Add "filepath" ( $.Page.File.TranslationBaseName ) }}
+{{ $.Scratch.Add "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $file ) }}
+{{ end }}
+
+{{ if not (fileExists ($.Scratch.Get "filepath"  )) }}
+{{ $.Scratch.Set "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Site.Params.contentdir ) }}
+{{ $.Scratch.Add "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Page.Dir ) }}
+{{ $.Scratch.Add "filepath" ( $.Page.File.TranslationBaseName ) }}
+{{ $.Scratch.Add "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $file ) }}
+{{ end }}
+
+
+{{ end }}
+
+{{- $filepath := ($.Scratch.Get "filepath"  ) -}}
+{{- $format := ($.Scratch.Get "format"  ) -}}
+{{- $startline:= ($.Scratch.Get "startline"  ) -}}
+
+{{/* Check if the specified file exists */}}
+
+{{ if fileExists ( $filepath ) }}
+<!--{{- ( print "\n```\n FILE BEGIN: " ( $file ) " FORMAT: " ( $format ) "\n```\n\n" ) | markdownify -}}-->
+<!--{{ highlight ( $filepath | readFile | safeHTML ) $format "linenos=table,linenostart=$startline" }}-->
+{{- $.Page.RenderString ( print "```" ( $format ) "\n" ( $filepath | readFile | safeHTML ) "\n```" ) -}}
+<!--{{- ( print "\n```\n FILE END : " ( $file )  "\n```\n\n" ) | markdownify -}}-->
+{{/* Say something if the file is not found and display the path that was specified in the shortcode (`file=" "`). */}}
+{{ else }}
+
+<p style="color: #D74848"><b><i>Something's not right. The <code>{{ $filepath }}</code> file was not found.</i></b></p>
+
+{{ end }}

@@ -1,0 +1,37 @@
+{{- $file := ( .Get 0 ) -}}
+{{- $format := "md" -}}
+
+{{/* Get the filepath */}}
+{{/* If the first character is "/", the path is from the sites `baseURL`. */}}
+{{ if eq ( $file | printf "%.1s") "/" }}
+
+{{/* Use Hugo `readfile` behavior of path from sites `baseURL`. */}}
+{{ $.Scratch.Set "filepath" ( $file ) }}
+
+{{ else }}
+
+{{/* Make relative: Fetch the current directory and then append it to the specified `file=""` value */}}
+{{ $.Scratch.Set "filepath" "/" }}
+{{ $.Scratch.Add "filepath" ( $.Page.Dir ) }}
+{{ $.Scratch.Add "filepath" ( $file ) }}
+
+{{ end }}
+
+{{- $filepath := ($.Scratch.Get "filepath"  ) -}}
+
+{{/* Check if the specified file exists */}}
+
+{{ if fileExists ( $filepath ) }}
+{{- ( print "\n```\n FILE BEGIN : " ( $file )  "\n```\n" ) -}}
+{{- ( print "\n" ) -}}
+{{- ( $filepath | readFile ) | markdownify -}}
+{{- ( print "\n" ) -}}
+{{- ( print "\n" ) -}}
+{{- ( print "\n```\n FILE END : " ( $file )  "\n```\n" ) -}}
+
+{{/* Say something if the file is not found and display the path that was specified in the shortcode (`file=" "`). */}}
+{{ else }}
+
+<p style="color: #D74848"><b><i>Something's not right. The <code>{{ $filepath }}</code> file was not found.</i></b></p>
+
+{{ end }}

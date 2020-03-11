@@ -1,0 +1,9 @@
+[submodule "src/themes/zzo"]
+	path = src/themes/zzo
+	url = https://github.com/zzossig/hugo-theme-zzo.git
+[submodule "src/themes/minimo"]
+	path = src/themes/minimo
+	url = https://github.com/MunifTanjim/minimo
+[submodule "src/themes/enigmo"]
+	path = src/themes/enigmo
+	url = git@github.com:achary/engimo.git

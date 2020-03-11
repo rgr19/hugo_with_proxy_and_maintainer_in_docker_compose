@@ -1,0 +1,91 @@
+main:
+  - identifier: repository
+    name: "Repo"
+    weight: -10
+    url: "https://github.com/rgr19"
+
+#  - identifier: about
+#    name: About
+#    url: about
+#    weight: 1
+#  - parent: about
+#    name: Certificates
+#    url: about/certificates
+#  - parent: about
+#    name: Hackathons
+#    url: about/hackathons
+#
+#  - identifier:  archive
+#    name: Archive
+#    url: archive
+#    weight: 2
+#
+#  - identifier:  posts
+#    name: Posts
+#    url: posts
+#    weight: 2
+#
+#  - identifier:  study
+#    name: Study
+#    url: study
+#    weight: 3
+#  - parent: study
+#    name: Courses
+#    url: study/courses
+#  - parent: study
+#    name: Examples
+#    url: study/examples
+#  - parent: study
+#    name: Univeristy
+#    url: study/university
+#  - parent: study
+#    name: Courses
+#    url: study/courses
+#  - parent: study
+#    name: Tutorials
+#    url: study/tutorials
+#  - parent: study
+#    name: Investing
+#    url: study/investing
+#
+#  - identifier:  showcase
+#    name: Showcase
+#    url: showcase
+#    weight: 4
+#  - parent: showcase
+#    name: Contributions
+#    url: showcase/contributions
+#  - parent: showcase
+#    name: Packages
+#    url: showcase/packages
+#  - parent: showcase
+#    name: Projects
+#    url: showcase/projects
+#
+#  - identifier:  Pubs
+#    name: Publication
+#    url: publication
+#    weight: 5
+#
+#  - identifier:  Pres
+#    name: Presentation
+#    url: presentation
+#    weight: 5
+#
+#  - identifier:  Contact
+#    name: "@"
+#    url: contact
+#    weight: 6
+#
+#  - identifier:  gallery
+#    name: Gallery
+#    url: gallery
+#    weight: 5
+#
+#  - parent: gallery
+#    name: Cartoon
+#    url: gallery/cartoon
+#
+#  - parent: gallery
+#    name: Photo
+#    url: gallery/photo

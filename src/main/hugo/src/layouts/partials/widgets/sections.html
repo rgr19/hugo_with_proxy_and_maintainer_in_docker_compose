@@ -1,0 +1,28 @@
+
+{{ define "sections-nav" }}
+<ul>
+    {{ range sort .Pages "value" "desc" }}
+
+    {{if gt (len .LinkTitle) 0}}
+        <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
+    {{else if gt (len .Title) 0}}
+        <li><a href="{{ .Permalink}}"> {{ .Title }} </a></li>
+    {{end}}
+
+    {{ end }}
+</ul>
+{{ end }}
+
+<div class='container sep-after'></div>
+
+<div>
+    <ul>
+
+        {{ if gt (len .Sections) 0}}
+        <h4>Subcategories</h4>
+        {{ template "sections-nav" . }}
+        {{end}}
+    </ul>
+</div>
+
+

@@ -1,0 +1,9 @@
+{{- $dir := ( .Get 0 ) -}}
+<div>
+    <ul>
+        <h4>Articles:</h4>
+        {{ range (readDir $dir) }}
+            {{ .Name }} <br>
+        {{ end }}
+    </ul>
+</div>

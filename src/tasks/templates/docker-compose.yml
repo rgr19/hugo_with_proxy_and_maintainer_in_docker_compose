@@ -1,0 +1,41 @@
+version: "3.7"
+
+services:
+  blog-hugo:
+    image: 'blog-hugo:${HUGO_VERSION}'
+    build:
+      context: src/main/hugo
+      dockerfile: Dockerfile
+      args:
+        - HUGO_VERSION=${HUGO_VERSION}
+        - HUGO_TYPE=${HUGO_TYPE}
+        - HUGO_HOME=${HUGO_HOME}
+    volumes:
+      - ./src/main/hugo:${HUGO_HOME}:ro
+      - ./output/hugo/public:${HUGO_OUTPUT}:rw
+      - ./content/draft:${HUGO_CONTENT}:ro
+      - ./cache/hugo/resources:${HUGO_RESOURCES}/:rw
+    restart: always
+    ports:
+      - 1313
+    command: "make all"
+    env_file: .env
+
+  blog-proxy:
+    container_name: blog-proxy
+    image: blog-proxy:1.0
+    env_file: .env
+    command: "make all"
+    restart: always
+    build:
+      context: src/main/proxy
+      dockerfile: Dockerfile
+    volumes:
+      - ./src/main/proxy:/nginx:ro
+      - ./src/main/proxy/src/conf.d:/etc/nginx/conf.d:ro
+    ports:
+      - 80:80
+      - 8080:8080
+    depends_on:
+      - blog-hugo
+

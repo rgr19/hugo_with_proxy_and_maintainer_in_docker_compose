@@ -1,0 +1,63 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Home"
+theme = "minimus" #"capsule"
+canonifyURLs = true
+SectionPagesMenu = "main"
+enableGitInfo = true
+
+defaultContentLanguage = "en"
+enableEmoji   = true
+
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic=false #pygments to slow
+pygmentsUseClasses=false #treu make it not working
+pygmentsStyle= "monokai"
+
+[params]
+  repo = "https://github.com/robgrzel/robgrzel.github.io"
+
+
+# RSS Feed
+# Do not build RSS files
+disableRSS = false
+# maximum number of items in the RSS feed
+rssLimit   = 10
+
+
+[imaging]
+# https://gohugo.io/content-management/image-processing/
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "box"
+
+# Defatult JPEG quality setting. Default is 75.
+quality = 75
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"
+
+
+[outputs]
+home = [ "HTML", "RSS" ]
+section = [ "HTML", "RSS"]
+
+
+# ##################################################
+# Theme-defined configuration
+
+# ##################################################
+# hugo sections
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[Permalinks]
+  blog = "/blog/:year/:month/:day/:filename/"
+  # blog = "/blog/:year/:month/:title/"

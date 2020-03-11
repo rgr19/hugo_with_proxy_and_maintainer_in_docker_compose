@@ -1,0 +1,14 @@
+<div>
+    <ul>
+        {{ if ne .IsHome true }}
+        <h4>Articles:</h4>
+        {{ template "sections-nav" . }}
+        {{end}}
+        <hr>
+        {{ if gt (len .Sections) 0}}
+        <h4>Subcategories</h4>
+        {{ template "sections-tree-nav" . }}
+        {{end}}
+    </ul>
+</div>
+

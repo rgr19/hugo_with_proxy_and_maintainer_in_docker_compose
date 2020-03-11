@@ -1,0 +1,3 @@
+[submodule "src/main/hugo"]
+	path = src/main/hugo
+	url = git@github.com:rgr19/hugo_in_docker.git

@@ -1,0 +1,62 @@
+{{- $dir := ( .Get 0 ) -}}
+{{/* Get the dirpath */}}
+{{/* If the first character is "/", the path is from the sites `baseURL`. */}}
+{{- if eq ( $dir | printf "%.1s") "/" -}}
+
+{{/* Use Hugo `readfile` behavior of path from sites `baseURL`. */}}
+{{- $.Scratch.Set "dirpath" ( $dir) -}}
+
+{{- else -}}
+
+{{/* Make relative: Fetch the current directory and then append it to the specified `file=""` value */}}
+{{- $.Scratch.Set "dirpath" "/content/" -}}
+{{- $.Scratch.Add "dirpath" ( $.Page.Dir ) -}}
+{{- $.Scratch.Add "dirpath" ( $dir ) -}}
+
+{{- end -}}
+
+
+{{- if gt ( len .Params ) 1 -}}
+{{- $.Scratch.Set "format" ( .Get 1 ) -}}
+{{- else -}}
+{{- $.Scratch.Set "format" "" -}}
+{{- end -}}
+
+{{- $dirpath := ($.Scratch.Get "dirpath"  ) -}}
+{{- if fileExists ($dirpath) -}}
+
+{{- range (readDir $dirpath) -}}
+
+{{- $.Scratch.Set "filepath" ( $dirpath ) -}}
+{{- $.Scratch.Add "filepath" "/" -}}
+{{- $.Scratch.Add "filepath" ( .Name ) -}}
+{{- $filepath := ($.Scratch.Get "filepath"  ) -}}
+{{- $format := ($.Scratch.Get "format"  ) -}}
+{{- $file := ( .Name ) -}}
+
+{{- if not (len $format) -}}
+{{- $splits := ( split $filepath "." ) -}}
+{{- $splitsLength := ( len $splits ) -}}
+{{- $format := ( index $splits ( sub $splitsLength 1 ) ) -}}
+{{- $.Scratch.Set "format" $format -}}
+{{- end -}}
+
+{{/* Check if the specified file exists */}}
+{{- if fileExists ( $filepath ) -}}
+{{- ( print "\n```\n FILE BEGIN : " ( $file )  "\n```\n" ) -}}
+{{- highlight ( $filepath | readFile | safeHTML ) $format "" -}}
+<!-- {{- ( print "```" $format "\n" ( readFile $filepath | safeHTML ) "\n" "```" ) | markdownify -}} -->
+{{/* Say something if the file is not found and display the path that was specified in the shortcode (`file=" "`). */}}
+{{- else -}}
+
+<p style="color: #D74848"><b><i>The <code>{{- $filepath -}}</code> file was not found.</i></b></p>
+
+{{- end -}}
+
+{{- end -}}
+
+{{- else -}}
+
+<p style="color: #D74848"><b><i>The <code>{{- $dirpath -}}</code> dir was not found.</i></b></p>
+
+{{- end -}}
