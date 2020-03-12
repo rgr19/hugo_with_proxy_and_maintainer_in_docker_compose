@@ -37,11 +37,10 @@ class GitExecutor(ExecutorCallerAbstract):
 		return self(self.INIT, path).with_flags(self.SHARED).spawn()
 
 	def git_remote_add_origin(self, path, origin) -> bool:
-		return self(self.REMOTE, path).with_
+		return self(self.REMOTE, path).with_args(self.ADD, origin).spawn()
 
-	def git_submodule_add_origin(self, path, origin) -> bool:
-		return self()
- git submodule add https://github.com/MunifTanjim/minimo src/themes/minimo
+	def git_submodule_add_origin(self, rootPath, path, origin) -> bool:
+		return self(self.SUBMODULE, rootPath).with_args(self.ADD, origin, path).spawn()
 
 	def git_add_all(self, path) -> bool:
 		return self(self.ADD, path).with_flags(self.ALL).spawn()
