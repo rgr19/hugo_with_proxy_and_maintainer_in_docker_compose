@@ -1,5 +1,4 @@
-import argparse
-import sys
+import os
 import time
 
 from lib.DirectoryFormatter import DirectoryFormatter
@@ -85,10 +84,9 @@ def main():
 		'includedExtensionsGlobs': ['.md', '.markdown', '.git']
 	}
 
-
 	MAINTENANCE_INTERVALS = os.environ['MAINTAINER_INTERVALS']
-	PROJECT_ROOT = kwargv['PROJECT_ROOT']
-	PROJECT_CONTENT = kwargv['PROJECT_CONTENT']
+	PROJECT_ROOT = os.environ['PROJECT_ROOT']
+	PROJECT_CONTENT = os.environ['PROJECT_CONTENT']
 
 	formatterKwargs['directory'] = PROJECT_CONTENT
 	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT)
