@@ -1,0 +1,15 @@
+baseURL = "http://www.onceawaken.com"
+title = "Onceawaken"
+# for smart copyright line, leave this blank and check [params.copyright]
+theme = "zzo"
+
+##
+disableKinds = ["taxonomyTerm"]
+
+[outputs]
+  page = ["HTML", "SearchIndex"]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
+

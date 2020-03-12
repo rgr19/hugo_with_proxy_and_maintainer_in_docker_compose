@@ -1,0 +1,32 @@
+#TableOfContents:before {
+    content: "Table Of Contents:";
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0 0
+}
+
+#TableOfContents {
+    background-color: #f6f6f6;
+    border-radius: .2rem 0 0 .2rem;
+    box-sizing: border-box;
+    /* max-height: calc(100% - 10.5rem); */
+    max-height: calc(100% - 7.5rem);
+    overflow: auto;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    top: 4rem;
+    /* top: 0; */
+    width: 16rem
+}
+
+#TableOfContents>h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0 1rem
+}
+
+#TableOfContents>ul {
+    list-style-type: square;
+    padding: 0 1rem
+}

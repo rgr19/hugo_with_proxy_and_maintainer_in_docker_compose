@@ -7,3 +7,6 @@
 [submodule "src/themes/enigmo"]
 	path = src/themes/enigmo
 	url = git@github.com:achary/engimo.git
+[submodule "src/themes/zdoc"]
+	path = src/themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zdoc.git

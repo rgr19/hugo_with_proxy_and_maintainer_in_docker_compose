@@ -1,32 +1,69 @@
 "services":
-  "blog-hugo":
+  "web-hugo-blog":
     "build":
       "args":
-      - "HUGO_VERSION=0.60.1"
+      - "HUGO_VERSION=0.60.0"
       - "HUGO_TYPE=_extended"
       - "HUGO_HOME=/hugo"
       "context": "src/main/hugo"
       "dockerfile": "Dockerfile"
     "command": "make all"
-    "container_name": "blog-hugo"
+    "container_name": "web-hugo-blog"
     "env_file": ".env"
-    "image": "blog-hugo:0.60.1"
+    "environment":
+    - "HUGO_ENV=blog"
+    - "HUGO_WEB_NAME=web-hugo-blog"
+    - "HUGO_BASEURL=localhost"
+    - "HUGO_VERSION=0.60.0"
+    - "HUGO_OUTPUT=/srv/hugo/output/blog"
+    - "HUGO_THEME=zzo"
+    - "HUGO_PORT=1313"
+    "image": "web-hugo-blog:0.60.0"
     "ports":
     - "1313"
     "restart": "always"
     "volumes":
     - "./src/main/hugo:/hugo:ro"
-    - "./output/hugo/public:/srv/hugo/output:rw"
-    - "./content/draft:/srv/hugo/content:ro"
+    - "./output/hugo/public/blog:/srv/hugo/output/blog:rw"
+    - "./content/draft/content/blog:/srv/hugo/content:ro"
     - "./cache/hugo/resources:/hugo/src/resources:rw"
-  "blog-proxy":
+  "web-hugo-docs":
+    "build":
+      "args":
+      - "HUGO_VERSION=0.60.0"
+      - "HUGO_TYPE=_extended"
+      - "HUGO_HOME=/hugo"
+      "context": "src/main/hugo"
+      "dockerfile": "Dockerfile"
+    "command": "make all"
+    "container_name": "web-hugo-docs"
+    "env_file": ".env"
+    "environment":
+    - "HUGO_ENV=docs"
+    - "HUGO_WEB_NAME=web-hugo-docs"
+    - "HUGO_BASEURL=localhost/docs"
+    - "HUGO_VERSION=0.60.0"
+    - "HUGO_OUTPUT=/srv/hugo/output/docs"
+    - "HUGO_THEME=zdoc"
+    - "HUGO_PORT=1314"
+    "image": "web-hugo-docs:0.60.0"
+    "ports":
+    - "1313"
+    "restart": "always"
+    "volumes":
+    - "./src/main/hugo:/hugo:ro"
+    - "./output/hugo/public/docs:/srv/hugo/output/docs:rw"
+    - "./content/draft/content/docs:/srv/hugo/content:ro"
+    - "./cache/hugo/resources:/hugo/src/resources:rw"
+  "web-proxy":
     "build":
       "context": "src/main/proxy"
       "dockerfile": "Dockerfile"
     "command": "make all"
-    "container_name": "blog-proxy"
+    "container_name": "web-proxy"
     "depends_on":
-    - "blog-hugo"
+    - "web-hugo-blog"
+    - "web-hugo-docs"
     "env_file": ".env"
     "image": "blog-proxy:1.0"
     "ports":
@@ -35,6 +72,6 @@
     "restart": "always"
     "volumes":
     - "./src/main/proxy:/nginx:ro"
-    - "./src/main/proxy/src/conf.d:/etc/nginx/conf.d:ro"
+    - "./output/proxy/conf.d:/etc/nginx/conf.d:rw"
 "version": "3.7"
 

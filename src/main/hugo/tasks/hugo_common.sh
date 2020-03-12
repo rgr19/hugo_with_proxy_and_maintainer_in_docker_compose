@@ -19,7 +19,11 @@ echo "HUGO_REFRESH_TIME:" $HUGO_REFRESH_TIME
 echo "HUGO_THEME:" $HUGO_THEME
 echo "HUGO_BASEURL" $HUGO_BASEURL
 echo "HUGO_DEBUG: " $HUGO_DEBUG
+echo "HUGO_LANGUAGES_EN_contentdir: " $HUGO_LANGUAGES_EN_contentdir
+echo "HUGO_LANGUAGES_KO_contentdir: " $HUGO_LANGUAGES_KO_contentdir
 echo "ARGS" $@
+
+mkdir -p ${HUGO_OUTPUT}
 
 HUGO=/usr/local/sbin/hugo
 echo "Hugo path: $HUGO"
@@ -47,7 +51,9 @@ function hugo_common() {
 
 function hugo_server_common() {
 	hugo_common server \
-		--bind="0.0.0.0" \
+		--bind="${HUGO_WEB_NAME}" \
 		--port="$HUGO_PORT" \
+		--environment="${HUGO_ENV}" \
+		--appendPort=false \
 		$@
 }

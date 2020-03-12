@@ -1,29 +1,64 @@
 version: "3.7"
 
 services:
-  blog-hugo:
-    container_name: blog-hugo
-    image: 'blog-hugo:${HUGO_VERSION}'
+  web-hugo-blog:
+    container_name: ${HUGO_BLOG_NAME}
+    image: '${HUGO_BLOG_NAME}:${HUGO_VERSION_BLOG}'
     build:
       context: src/main/hugo
       dockerfile: Dockerfile
       args:
-        - HUGO_VERSION=${HUGO_VERSION}
+        - HUGO_VERSION=${HUGO_VERSION_BLOG}
         - HUGO_TYPE=${HUGO_TYPE}
         - HUGO_HOME=${HUGO_HOME}
     volumes:
       - ./${HOST_HUGO_ROOT}:${HUGO_HOME}:ro
-      - ./${HOST_HUGO_OUTPUT}:${HUGO_OUTPUT}:rw
-      - ./${HOST_HUGO_CONTENT}:${HUGO_CONTENT}:ro
+      - ./${HOST_HUGO_OUTPUT_BLOG}:${HUGO_OUTPUT_BLOG}:rw
+      - ./${HOST_HUGO_CONTENT_BLOG}:${HUGO_CONTENT}:ro
+      - ./${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw
+    env_file: .env
+    environment:
+      - HUGO_ENV=blog
+      - HUGO_WEB_NAME=${HUGO_BLOG_NAME}
+      - HUGO_BASEURL=${HUGO_BASEURL_BLOG}
+      - HUGO_VERSION=${HUGO_VERSION_BLOG}
+      - HUGO_OUTPUT=${HUGO_OUTPUT_BLOG}
+      - HUGO_THEME=${HUGO_THEME_BLOG}
+      - HUGO_PORT=${HUGO_PORT_BLOG}
+    restart: always
+    ports:
+      - 1313
+    command: "make all"
+  web-hugo-docs:
+    container_name: ${HUGO_DOCS_NAME}
+    image: '${HUGO_DOCS_NAME}:${HUGO_VERSION_DOCS}'
+    build:
+      context: src/main/hugo
+      dockerfile: Dockerfile
+      args:
+        - HUGO_VERSION=${HUGO_VERSION_DOCS}
+        - HUGO_TYPE=${HUGO_TYPE}
+        - HUGO_HOME=${HUGO_HOME}
+    volumes:
+      - ./${HOST_HUGO_ROOT}:${HUGO_HOME}:ro
+      - ./${HOST_HUGO_OUTPUT_DOCS}:${HUGO_OUTPUT_DOCS}:rw
+      - ./${HOST_HUGO_CONTENT_DOCS}:${HUGO_CONTENT}:ro
       - ./${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw
     restart: always
     ports:
       - 1313
     command: "make all"
     env_file: .env
-
-  blog-proxy:
-    container_name: blog-proxy
+    environment:
+      - HUGO_ENV=docs
+      - HUGO_WEB_NAME=${HUGO_DOCS_NAME}
+      - HUGO_BASEURL=${HUGO_BASEURL_DOCS}
+      - HUGO_VERSION=${HUGO_VERSION_DOCS}
+      - HUGO_OUTPUT=${HUGO_OUTPUT_DOCS}
+      - HUGO_THEME=${HUGO_THEME_DOCS}
+      - HUGO_PORT=${HUGO_PORT_DOCS}
+  web-proxy:
+    container_name: web-proxy
     image: blog-proxy:1.0
     env_file: .env
     command: "make all"
@@ -33,10 +68,11 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./${HOST_PROXY_ROOT}:/nginx:ro
-      - ./${HOST_PROXY_CONFD}:/etc/nginx/conf.d:ro
+      - ./${HOST_PROXY_CONFD}:/etc/nginx/conf.d:rw
     ports:
       - 80:80
       - 8080:8080
     depends_on:
-      - blog-hugo
+      - web-hugo-blog
+      - web-hugo-docs
 

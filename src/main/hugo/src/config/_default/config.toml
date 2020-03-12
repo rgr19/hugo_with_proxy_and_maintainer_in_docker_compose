@@ -1,36 +1,33 @@
 baseURL = "http://www.onceawaken.com"
 title = "Onceawaken"
 # for smart copyright line, leave this blank and check [params.copyright]
-canonifyUrl = true #
+canonifyUrl = true#
 theme = "zzo"
 
+# ignored directories/files and their children
 ignoreFiles = [ ".md.$", ".idea", ".vscode", "webs",  "literature", "github", "codes",  ".tutorials", ".rawdata", ".ipynb", ".zip", ".tgz", ".tar.gz" ]
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
-summaryLength = 70
-buildFuture = true
-
 copyright = "&copy;{year}, All Rights Reserved"
 timeout = 10000
+paginate = 13
+rssLimit = 100
 enableEmoji = true
 enableKatex = true
-paginate = 30
-rssLimit = 100
+buildFuture = true
+
+enableRobotsTXT = true # generate robots.txt
+enableGitInfo = true
+googleAnalytics = ""
+
+disableKinds = ["taxonomyTerm"]
 
 preserveTaxonomyNames = true
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 # pygmentsCodefences = true
-
-enableRobotsTXT = true # generate robots.txt
-enableGitInfo = false
-googleAnalytics = ""
-
-##
-disableKinds = ["taxonomyTerm"]
-
 
 [markup]
 #  defaultMarkdownHandler = "goldmark"
@@ -80,11 +77,7 @@ disableKinds = ["taxonomyTerm"]
     startLevel = 1
 
 [outputs]
-  page = ["HTML", "SearchIndex"]
   home = ["HTML", "RSS", "SearchIndex"]
-  section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
 
 [outputFormats]
   [outputFormats.SearchIndex]
@@ -94,6 +87,7 @@ disableKinds = ["taxonomyTerm"]
     notAlternative = true
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
   series = "series"
+  tag = "tags"
+  category = "categories"
+

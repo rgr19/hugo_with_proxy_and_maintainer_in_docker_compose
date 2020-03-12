@@ -3,6 +3,7 @@ include .env
 include .env.local
 
 SHELL := /usr/bin/env bash
+MAKEFLAGS += --jobs=3
 
 .PHONY: all docker
 all: clean run

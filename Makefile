@@ -1,5 +1,4 @@
-include .env
-all:  reload d b up maintain
+all:  pip reload d b up maintain
 clean: reload d
 .PHONY: all clean default
 
@@ -10,14 +9,14 @@ MAKEFLAGS += --jobs=3
 pip:
 	pip install -r requirements.txt
 
-reload:
+reload: pip
 	echo '>>> [MAKE] reload with MAKEFLAGS=${MAKEFLAGS}'
 	python3.7 src/tasks/reload.py
 
 d: reload
 	echo '>>> [MAKE] d'
 	docker-compose down --remove-orphans
-	docker rm blog-proxy blog-hugo -f || true
+	docker rm web-proxy web-hugo-blog web-hugo-docs -f || true
 
 b: reload d
 	echo '>>> [MAKE] b'

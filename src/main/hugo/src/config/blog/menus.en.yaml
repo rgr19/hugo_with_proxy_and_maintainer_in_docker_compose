@@ -1,4 +1,8 @@
 main:
+  - identifier: docs
+    name: "[Docs]"
+    url: "http://localhost/docs"
+    weight: 1
 #  - parent: about
 #    name: Certificates
 #    url: about/certificates
@@ -63,7 +67,7 @@ main:
 #    url: presentation
 #    weight: 5
 #
-
+#
   - identifier:  gallery
     name: Gallery
     url: gallery

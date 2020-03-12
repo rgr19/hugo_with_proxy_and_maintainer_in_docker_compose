@@ -35,6 +35,7 @@
     <mapping directory="$PROJECT_DIR$/src/hugo/themes/minimo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/main/hugo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/main/hugo/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/main/hugo/src/themes/enigmo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/main/hugo/src/themes/minimo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/main/hugo/src/themes/zzo" vcs="Git" />
   </component>

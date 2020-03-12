@@ -1,0 +1,21 @@
+main:
+  - identifier: "blog"
+    name: "[Blog]"
+    url: "http://localhost/"
+    weight: 1
+  - identifier: "docs"
+    name: "Docs"
+    url: "docs"
+    weight: 1
+  - identifier: "posts"
+    name: "Posts"
+    url: "posts"
+    weight: 2
+  - identifier: "updates"
+    name: "Updates"
+    url: "updates"
+    weight: 100
+
+
+
+
