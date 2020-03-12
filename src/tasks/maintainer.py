@@ -8,6 +8,15 @@ from lib.common import build_logger
 logger = build_logger(__name__, level="DEBUG")
 
 
+class Repository:
+	List = []
+
+	def __init__(self, path, origin):
+		self.path = path
+		self.origin = origin
+		self.List.append(self)
+
+
 class Backuper(GitExecutor):
 	configs = [
 		('user.name', 'Backuper'),
@@ -20,7 +29,7 @@ class Backuper(GitExecutor):
 		self.paths = (rootPath,) + submodulesPaths
 
 	def init_orgins(self):
-		self.git
+		self.git_remote_add_origin(self.rootPath, )
 
 	def init_backup(self, ):
 		for path in self.paths:
