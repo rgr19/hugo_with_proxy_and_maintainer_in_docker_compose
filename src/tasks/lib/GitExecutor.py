@@ -12,7 +12,6 @@ class GitExecutor(ExecutorCallerAbstract):
 	PUSH = 'push'
 	ADD = 'add'
 	ALL = 'all'
-	STATUS = 'status'
 	MASTER = 'master'
 	LOCAL = 'local'
 	ORIGIN = 'origin'
@@ -20,15 +19,13 @@ class GitExecutor(ExecutorCallerAbstract):
 	MESSAGE = 'message'
 	CONFIG = 'config'
 	FORCE = 'force'
+	SUBMODULE = 'submodule'
 
 	def __call__(self, subcommand, path):
 		command = [self.GIT]
 		return Executor(command) \
 			.with_cwd(path) \
 			.with_subcommand(subcommand)
-
-	def git_status(self, path) -> bool:
-		return self(self.STATUS, path).spawn()
 
 	def git_config(self, path) -> bool:
 		return self(self.CONFIG, path).spawn()
