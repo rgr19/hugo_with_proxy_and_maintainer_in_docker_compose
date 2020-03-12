@@ -23,10 +23,10 @@ class Backuper(GitExecutor):
 		('user.email', '<>'),
 	]
 
-	def __init__(self, rootPath: Repository, *submodulesPaths: Repository):
-		self.rootPath = rootPath
-		self.submodulesPaths = submodulesPaths
-		self.paths = (rootPath,) + submodulesPaths
+	def __init__(self, root: Repository, *submodules: Repository):
+		self.root = root
+		self.submodules = submodules
+		self.paths = (root,) + submodules
 
 	def init_orgins(self):
 		self.git_remote_add_origin(self.rootPath, )
