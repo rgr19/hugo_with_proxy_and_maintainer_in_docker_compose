@@ -87,9 +87,10 @@ def main():
 	MAINTENANCE_INTERVALS = os.environ['MAINTAINER_INTERVALS']
 	PROJECT_ROOT = os.environ['PROJECT_ROOT']
 	PROJECT_CONTENT = os.environ['PROJECT_CONTENT']
+	PROJECT_HUGO = os.environ['PROJECT_HUGO']
 
 	formatterKwargs['directory'] = PROJECT_CONTENT
-	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT)
+	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT, PROJECT_HUGO)
 
 	logger.info("Maintainer begin LOOP:")
 	while True:
