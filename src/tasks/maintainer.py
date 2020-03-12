@@ -74,7 +74,7 @@ def maintenance(backuper, formatterKwargs):
 			return True
 
 
-def main(argv):
+def main():
 	formatterKwargs = {
 		'directory': None,
 		'excludedDirs': [
@@ -85,16 +85,8 @@ def main(argv):
 		'includedExtensionsGlobs': ['.md', '.markdown', '.git']
 	}
 
-	mainParser = argparse.ArgumentParser(
-		prog="MAINTAINER", description="Backup and content reformatter.")
 
-	mainParser.add_argument('-e', '--projectDirectory', dest='PROJECT_ROOT', required=False, default='./')
-	mainParser.add_argument('-f', '--contentDirectory', dest='PROJECT_CONTENT', required=False, default='./content')
-	mainParser.add_argument('-d', '--maintenanceIntervals', dest='MAINTENANCE_INTERVALS', required=False, default=10, type=int)
-
-	kwargv = vars(mainParser.parse_args(argv))
-
-	MAINTENANCE_INTERVALS = kwargv['MAINTENANCE_INTERVALS']
+	MAINTENANCE_INTERVALS = os.environ['MAINTENANCE_INTERVALS']
 	PROJECT_ROOT = kwargv['PROJECT_ROOT']
 	PROJECT_CONTENT = kwargv['PROJECT_CONTENT']
 
@@ -108,4 +100,3 @@ def main(argv):
 
 
 if __name__ == '__main__':
-	main(sys.argv[1:])
