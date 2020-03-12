@@ -110,6 +110,7 @@ def main():
 	backuper = Backuper(rootRepository, contentRepository, hugoRepository)
 	backuper.init_backup()
 	backuper.init_orgins()
+	backuper.do_backup()
 
 	logger.info("Maintainer begin LOOP:")
 	while True:
