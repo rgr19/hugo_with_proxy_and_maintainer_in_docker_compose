@@ -43,7 +43,6 @@ class Backuper(GitExecutor):
 					self.git_config(*config)
 			except:
 				pass
-		self.do_backup()
 
 	def do_backup(self, ):
 		rval = True
