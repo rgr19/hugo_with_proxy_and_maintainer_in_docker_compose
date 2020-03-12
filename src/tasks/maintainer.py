@@ -30,7 +30,7 @@ class Backuper(GitExecutor):
 
 	def init_orgins(self):
 		self.git_remote_add_origin(self.root.path, self.root.origin)
-		self.git_submodule_add
+		self.git_submodule_add_origin
 
 	def init_backup(self, ):
 		for path in self.paths:
