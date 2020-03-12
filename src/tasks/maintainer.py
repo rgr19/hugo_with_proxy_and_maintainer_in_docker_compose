@@ -14,8 +14,10 @@ class Backuper(GitExecutor):
 		('user.email', '<>'),
 	]
 
-	def __init__(self, *paths):
-		self.paths = paths
+	def __init__(self, rootPath, *submodulesPaths):
+		self.rootPath = rootPath
+		self.submodulesPaths = submodulesPaths
+		self.paths = (rootPath,) + submodulesPaths
 
 	def init_backup(self, ):
 		for path in self.paths:
