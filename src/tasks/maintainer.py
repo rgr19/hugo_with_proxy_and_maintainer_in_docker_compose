@@ -26,7 +26,7 @@ class Backuper(GitExecutor):
 	def __init__(self, root: Repository, *submodules: Repository):
 		self.root = root
 		self.submodules = submodules
-		self.paths = (root,) + submodules
+		self.repos = (root,) + submodules
 
 	def init_orgins(self):
 		self.git_remote_add_origin(self.root.path, self.root.origin)
@@ -34,7 +34,8 @@ class Backuper(GitExecutor):
 			self.git_submodule_add_origin(self.root.path, submodule.path, submodule.origin)
 
 	def init_backup(self, ):
-		for path in self.paths:
+		for repo in self.repos:
+			path = repo.path
 			try:
 				logger.info(f"Initiate backup for DIR {path}")
 				self.git_init_shared(path)
@@ -46,7 +47,8 @@ class Backuper(GitExecutor):
 
 	def do_backup(self, ):
 		rval = True
-		for path in self.paths:
+		for repo in self.repos:
+			path = repo.path
 			logger.info(f"Try to backup in DIR {path}")
 			try:
 				self.git_add_all(path)

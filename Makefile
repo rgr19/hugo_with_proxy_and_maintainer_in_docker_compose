@@ -1,4 +1,5 @@
-include .env.git
+include .env.project
+export # will export content of .env.project
 all:  pip reload d b up maintain
 clean: reload d
 .PHONY: all clean default
@@ -6,6 +7,8 @@ clean: reload d
 SHELL := /usr/bin/env bash
 MAKEFLAGS += --jobs=3
 
+printenv:
+	printenv
 
 pip:
 	pip install -r requirements.txt
