@@ -19,6 +19,9 @@ class Backuper(GitExecutor):
 		self.submodulesPaths = submodulesPaths
 		self.paths = (rootPath,) + submodulesPaths
 
+	def init_orgins(self):
+		self.git
+
 	def init_backup(self, ):
 		for path in self.paths:
 			try:
