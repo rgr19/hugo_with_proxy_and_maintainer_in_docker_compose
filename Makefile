@@ -1,3 +1,4 @@
+include .env.git
 all:  pip reload d b up maintain
 clean: reload d
 .PHONY: all clean default
