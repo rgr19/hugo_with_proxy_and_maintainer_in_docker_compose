@@ -105,8 +105,8 @@ def main():
 	hugoRepository = Repository(os.environ['PROJECT_HUGO'], os.environ['PROJECT_HUGO_ORIGIN'])
 
 	formatterKwargs['directory'] = contentRepository.path
-	
-	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT, PROJECT_HUGO)
+
+	backuper = Backuper(rootRepository, contentRepository, hugoRepository)
 
 	logger.info("Maintainer begin LOOP:")
 	while True:
