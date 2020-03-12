@@ -101,7 +101,7 @@ def main():
 		'includedExtensionsGlobs': ['.md', '.markdown', '.git']
 	}
 
-	MAINTENANCE_INTERVALS = os.environ['MAINTAINER_INTERVALS']
+	MAINTENANCE_INTERVALS = int(os.environ.get('MAINTAINER_INTERVALS'))
 
 	rootRepository = Repository(os.environ['PROJECT_ROOT'], os.environ['PROJECT_ROOT_ORIGIN'])
 	contentRepository = Repository(os.environ['PROJECT_CONTENT'], os.environ['PROJECT_CONTENT_ORIGIN'])
