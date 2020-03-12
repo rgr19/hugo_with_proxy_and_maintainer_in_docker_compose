@@ -88,10 +88,9 @@ def main():
 	PROJECT_ROOT = os.environ['PROJECT_ROOT']
 	PROJECT_CONTENT = os.environ['PROJECT_CONTENT']
 	PROJECT_HUGO = os.environ['PROJECT_HUGO']
-	PROJECT_ROOT_ORIGIN=os.environ['']
-	PROJECT_CONTENT_ORIGIN=os.environ['']
-	PROJECT__ORIGIN=os.environ['']
-
+	PROJECT_ROOT_ORIGIN = os.environ['PROJECT_ROOT_ORIGIN']
+	PROJECT_CONTENT_ORIGIN = os.environ['PROJECT_CONTENT_ORIGIN']
+	PROJECT_HUGO_ORIGIN = os.environ['PROJECT_HUGO_ORIGIN']
 
 	formatterKwargs['directory'] = PROJECT_CONTENT
 	backuper = Backuper(PROJECT_ROOT, PROJECT_CONTENT, PROJECT_HUGO)
