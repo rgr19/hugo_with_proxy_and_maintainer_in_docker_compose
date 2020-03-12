@@ -29,7 +29,8 @@ class Backuper(GitExecutor):
 		self.paths = (root,) + submodules
 
 	def init_orgins(self):
-		self.git_remote_add_origin(self.rootPath, )
+		self.git_remote_add_origin(self.root.path, self.root.origin)
+		self.git_submodule_add
 
 	def init_backup(self, ):
 		for path in self.paths:
