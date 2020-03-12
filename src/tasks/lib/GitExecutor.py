@@ -27,18 +27,21 @@ class GitExecutor(ExecutorCallerAbstract):
 			.with_cwd(path) \
 			.with_subcommand(subcommand)
 
-	def git_status(self, path, *argv) -> bool:
-		return self(self.STATUS, path).with_args(*argv).spawn()
+	def git_status(self, path) -> bool:
+		return self(self.STATUS, path).spawn()
 
-	def git_config(self, path, *argv) -> bool:
-		return self(self.CONFIG, path).with_args(*argv).spawn()
+	def git_config(self, path) -> bool:
+		return self(self.CONFIG, path).spawn()
 
-	def git_init_shared(self, path, *argv) -> bool:
-		return self(self.INIT, path).with_flags(self.SHARED).with_args(*argv).spawn()
+	def git_init_shared(self, path) -> bool:
+		return self(self.INIT, path).with_flags(self.SHARED).spawn()
 
-	def git_add_all(self, path, *argv) -> bool:
-		return self(self.ADD, path).with_flags(self.ALL).with_args(*argv).spawn()
+	def git_remote_add_origin(self, path, origin) -> bool:
+		return self(self.REMOTE, path).with_
 
-	def git_commit(self, path, *argv) -> bool:
+	def git_add_all(self, path) -> bool:
+		return self(self.ADD, path).with_flags(self.ALL).spawn()
+
+	def git_commit(self, path) -> bool:
 		commitMessage = '{:%Y_%m_%d_%H_%M_%S}'.format(datetime.now())
-		return self(self.COMMIT, path).with_kwarg(self.MESSAGE, commitMessage).with_args(*argv).spawn(exitOnError=False, quietError=True)
+		return self(self.COMMIT, path).with_kwarg(self.MESSAGE, commitMessage).spawn(exitOnError=False, quietError=True)
