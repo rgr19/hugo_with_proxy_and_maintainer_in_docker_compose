@@ -109,6 +109,8 @@ def main():
 	formatterKwargs['directory'] = contentRepository.path
 
 	backuper = Backuper(rootRepository, contentRepository, hugoRepository)
+	backuper.init_backup()
+	backuper.init_orgins()
 
 	logger.info("Maintainer begin LOOP:")
 	while True:
