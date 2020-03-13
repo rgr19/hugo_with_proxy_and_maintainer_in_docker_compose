@@ -1,7 +1,7 @@
 main:
   - identifier: notes
-    name: "[notes]"
-    url: "http://localhost/notes"
+    name: "[notebook]"
+    url: "http://localhost/notebook"
     weight: 1
 #  - parent: about
 #    name: Certificates
