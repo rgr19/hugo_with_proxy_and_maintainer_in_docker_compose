@@ -64,9 +64,9 @@ def main():
 	hugoThemeVersion = get_hugo_theme_version(hugoThemePath)
 
 	envVars['HUGO_VERSION_BLOG'] = hugoThemeVersion
-	hugoThemePath = os.path.join(envVars['HOST_HUGO_ROOT'], SRC, THEMES, envVars['HUGO_THEME_DOCS'])
+	hugoThemePath = os.path.join(envVars['HOST_HUGO_ROOT'], SRC, THEMES, envVars['HUGO_THEME_NOTEBOOK'])
 	hugoThemeVersion = get_hugo_theme_version(hugoThemePath)
-	envVars['HUGO_VERSION_DOCS'] = hugoThemeVersion
+	envVars['HUGO_VERSION_NOTEBOOK'] = hugoThemeVersion
 
 	expandvars_in_docker_compose(envVars, DIR_SRC_TASKS_TEMPLATES, DIR_ROOT)
 

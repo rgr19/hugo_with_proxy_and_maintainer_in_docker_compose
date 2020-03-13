@@ -30,19 +30,19 @@ services:
       - 1313
     command: "make all"
   web-hugo-docs:
-    container_name: ${HUGO_DOCS_NAME}
-    image: '${HUGO_DOCS_NAME}:${HUGO_VERSION_DOCS}'
+    container_name: ${HUGO_NOTEBOOK_NAME}
+    image: '${HUGO_NOTEBOOK_NAME}:${HUGO_VERSION_NOTEBOOK}'
     build:
       context: src/main/hugo
       dockerfile: Dockerfile
       args:
-        - HUGO_VERSION=${HUGO_VERSION_DOCS}
+        - HUGO_VERSION=${HUGO_VERSION_NOTEBOOK}
         - HUGO_TYPE=${HUGO_TYPE}
         - HUGO_HOME=${HUGO_HOME}
     volumes:
       - ./${HOST_HUGO_ROOT}:${HUGO_HOME}:ro
-      - ./${HOST_HUGO_OUTPUT_DOCS}:${HUGO_OUTPUT_DOCS}:rw
-      - ./${HOST_HUGO_CONTENT_DOCS}:${HUGO_CONTENT}:ro
+      - ./${HOST_HUGO_OUTPUT_NOTEBOOK}:${HUGO_OUTPUT_NOTEBOOK}:rw
+      - ./${HOST_HUGO_CONTENT_NOTEBOOK}:${HUGO_CONTENT}:ro
       - ./${HOST_HUGO_CACHE}:${HUGO_RESOURCES}:rw
     restart: always
     ports:
@@ -51,12 +51,12 @@ services:
     env_file: .env
     environment:
       - HUGO_ENV=docs
-      - HUGO_WEB_NAME=${HUGO_DOCS_NAME}
-      - HUGO_BASEURL=${HUGO_BASEURL_DOCS}
-      - HUGO_VERSION=${HUGO_VERSION_DOCS}
-      - HUGO_OUTPUT=${HUGO_OUTPUT_DOCS}
-      - HUGO_THEME=${HUGO_THEME_DOCS}
-      - HUGO_PORT=${HUGO_PORT_DOCS}
+      - HUGO_WEB_NAME=${HUGO_NOTEBOOK_NAME}
+      - HUGO_BASEURL=${HUGO_BASEURL_NOTEBOOK}
+      - HUGO_VERSION=${HUGO_VERSION_NOTEBOOK}
+      - HUGO_OUTPUT=${HUGO_OUTPUT_NOTEBOOK}
+      - HUGO_THEME=${HUGO_THEME_NOTEBOOK}
+      - HUGO_PORT=${HUGO_PORT_NOTEBOOK}
   web-proxy:
     container_name: web-proxy
     image: blog-proxy:1.0

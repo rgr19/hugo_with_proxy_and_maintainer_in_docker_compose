@@ -3,9 +3,9 @@ main:
     name: "[Blog]"
     url: "http://localhost/"
     weight: 1
-  - identifier: "docs"
+  - identifier: "notebook"
     name: "Docs"
-    url: "docs"
+    url: "notebook"
     weight: 1
   - identifier: "posts"
     name: "Posts"

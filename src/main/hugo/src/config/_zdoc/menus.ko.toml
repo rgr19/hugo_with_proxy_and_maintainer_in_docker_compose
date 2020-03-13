@@ -1,7 +1,7 @@
 [[main]]
-  identifier = "docs"
+  identifier = "notebook"
   name = "Docs"
-  url = "docs"
+  url = "notebook"
   weight = 1
 
 [[main]]
