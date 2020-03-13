@@ -29,7 +29,7 @@ services:
     ports:
       - 1313
     command: "make all"
-  web-hugo-docs:
+  web-hugo-notebook:
     container_name: ${HUGO_NOTEBOOK_NAME}
     image: '${HUGO_NOTEBOOK_NAME}:${HUGO_VERSION_NOTEBOOK}'
     build:
@@ -50,7 +50,7 @@ services:
     command: "make all"
     env_file: .env
     environment:
-      - HUGO_ENV=docs
+      - HUGO_ENV=notebook
       - HUGO_WEB_NAME=${HUGO_NOTEBOOK_NAME}
       - HUGO_BASEURL=${HUGO_BASEURL_NOTEBOOK}
       - HUGO_VERSION=${HUGO_VERSION_NOTEBOOK}
@@ -74,5 +74,5 @@ services:
       - 8080:8080
     depends_on:
       - web-hugo-blog
-      - web-hugo-docs
+      - web-hugo-notebook
 
