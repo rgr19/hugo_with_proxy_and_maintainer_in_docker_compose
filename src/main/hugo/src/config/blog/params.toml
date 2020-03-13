@@ -34,15 +34,6 @@ pubPaginate = 30
 
 
 
-# whoami
-myname = "<You Know Who>"
-email = "onceawaken@outlook.com"
-whoami = ""
-bioImageUrl = ""
-useGravatar = true
-location = "Somewhere, Mars"
-organization = "<Parasite>"
-link = "https://onceawaken.com/en"
 
 # sidebar
 enableBio = true

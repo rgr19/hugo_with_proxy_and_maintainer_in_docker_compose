@@ -1,3 +1,12 @@
+# whoami
+myname = "<You Know Who>"
+email = "onceawaken@outlook.com"
+whoami = ""
+bioImageUrl = ""
+useGravatar = true
+location = "Somewhere, Mars"
+organization = "<Rice Bin>"
+link = "https://onceawaken.com/en"
 
 custom_css = []
 custom_js = []
