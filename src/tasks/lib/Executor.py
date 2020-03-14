@@ -32,8 +32,6 @@ class ExecutorOutputParser(object):
 	def print(self):
 
 		if not self.stdout and not self.stderr:
-			print("STDOUT => None")
-			print("STDERR => None")
 			return
 
 		if self.stdout:
