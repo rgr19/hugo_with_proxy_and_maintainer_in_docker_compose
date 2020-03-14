@@ -38,10 +38,10 @@ class GitExecutor(ExecutorCallerAbstract):
 		return self(self.REMOTE, path).with_args(self.ADD, self.ORIGIN, originUrl).spawn()
 
 	def git_submodule_add_origin(self, rootPath, path, originUrl) -> bool:
-		return self(self.SUBMODULE, rootPath).with_args(self.ADD, originUrl, path).spawn()
+		return self(self.SUBMODULE, rootPath).with_args(self.ADD, originUrl, path).spawn(exitOnError=False, quietError=True)
 
 	def git_submodule_set_origin(self, rootPath, path, originUrl) -> bool:
-		return self(self.SUBMODULE, rootPath).with_args(self.SET_URL, path, originUrl).spawn()
+		return self(self.SUBMODULE, rootPath).with_args(self.SET_URL, path, originUrl).spawn(exitOnError=False, quietError=True)
 
 	def git_add_all(self, path) -> bool:
 		return self(self.ADD, path).with_flags(self.ALL).spawn()
