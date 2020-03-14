@@ -3,6 +3,8 @@
     "intervals": 5
   },
   "repo": {
+    "user.name" : "rgr19",
+    "user.email" : "onceawaken@outlook.com",
     "dir": ".",
     "origin": "git@github.com:rgr19/hugo_with_proxy_and_maintainer_in_docker_compose.git",
     "submodules": {
