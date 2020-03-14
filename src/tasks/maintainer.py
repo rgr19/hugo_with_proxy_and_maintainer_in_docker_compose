@@ -1,6 +1,9 @@
+import enum
 import json
 import os
 import time
+
+import datas
 
 from lib.DirectoryFormatter import DirectoryFormatter
 from lib.GitExecutor import GitExecutor
@@ -9,33 +12,46 @@ from lib.common import build_logger
 logger = build_logger(__name__, level="DEBUG")
 
 
-class Repositories:
-	Map = {}
+class RepositoryType(enum.Enum):
+	root = 1
+	submodule = 2
 
-	def __init__(self, name, path, origin):
+
+class Repositories:
+	Map = datas.autodict()
+
+	def __init__(self, name, path, origin, type: RepositoryType):
 		self.name = name
 		self.path = path
 		self.origin = origin
+		self.type = type
 
 	@staticmethod
-	def add(name, path, origin):
-		repo = Repositories(name, path, origin)
-		Repositories.Map[name] = repo
+	def add(name, path, origin, type):
+		repo = Repositories(name, path, origin, type)
+		Repositories.Map[type][name] = repo
 		return repo
 
 	@staticmethod
-	def get(name=None):
-		if name is None:
-			return Repositories.Map
-		else:
-			try:
-				return Repositories.Map[name]
-			except:
-				return None
+	def get(name=None, type: RepositoryType = None):
+		try:
+			if name is None and type is None:
+				return Repositories.Map
+			elif name is None:
+				return Repositories.Map[type]
+			else:
+				for type in RepositoryType:
+					if name in Repositories.Map[type]:
+						return Repositories.Map[type][name]
+		except:
+			return None
 
 	@staticmethod
-	def get_list():
-		return Repositories.Map.values()
+	def get_list(type: RepositoryType = None):
+		if type is None:
+			return Repositories.Map.values()
+		else:
+			return Repositories.Map[type].values()
 
 
 class Backuper(GitExecutor):
@@ -117,17 +133,15 @@ def load_settings():
 	with open("project.json") as fp:
 		envDict = json.load(fp)
 
-	logger.info("Setup backuper...")
-
 	return envDict
 
 
 def setup_repositories(envDict):
-	repos = Repositories.add('root', envDict['repo']['dir'], envDict['repo']['origin'])
+	repos = Repositories.add('root', envDict['repo']['dir'], envDict['repo']['origin'], RepositoryType.root)
 	for name, repo in envDict['repo']['submodules'].items():
 		repoDir = repo['dir']
 		if os.path.exists(repoDir):
-			Repositories.add(name, repo['dir'], repo['origin'])
+			Repositories.add(name, repo['dir'], repo['origin'], RepositoryType.submodule)
 		else:
 			logger.exception(f"Repo DIR {repoDir} does not exist. Abort.")
 			return None
@@ -135,7 +149,8 @@ def setup_repositories(envDict):
 
 
 def setup_backuper(repos):
-	backuper = Backuper(repos.get('root'), *repos.get_list())
+	logger.info("Setup backuper...")
+	backuper = Backuper(repos.get('root', type=RepositoryType.root), *repos.get_list(type=RepositoryType.submodule))
 	backuper.init_backup()
 	backuper.init_orgins()
 	backuper.do_backup()
