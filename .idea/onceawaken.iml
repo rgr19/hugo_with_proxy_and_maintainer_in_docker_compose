@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/tasks/docker-compose" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/tasks/maintainer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/tasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/tasks/lib" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/content/draft" />
       <excludeFolder url="file://$MODULE_DIR$/output" />
     </content>

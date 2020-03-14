@@ -20,6 +20,7 @@ class GitExecutor(ExecutorCallerAbstract):
 	CONFIG = 'config'
 	FORCE = 'force'
 	SUBMODULE = 'submodule'
+	SET_URL = 'set-url'
 
 	def __call__(self, subcommand, path):
 		command = [self.GIT]
@@ -33,11 +34,14 @@ class GitExecutor(ExecutorCallerAbstract):
 	def git_init_shared(self, path) -> bool:
 		return self(self.INIT, path).with_flags(self.SHARED).spawn()
 
-	def git_remote_add_origin(self, path, origin) -> bool:
-		return self(self.REMOTE, path).with_args(self.ADD, self.ORIGIN, origin).spawn()
+	def git_remote_add_origin(self, path, originUrl) -> bool:
+		return self(self.REMOTE, path).with_args(self.ADD, self.ORIGIN, originUrl).spawn()
 
-	def git_submodule_add_origin(self, rootPath, path, origin) -> bool:
-		return self(self.SUBMODULE, rootPath).with_args(self.ADD, origin, path).spawn()
+	def git_submodule_add_origin(self, rootPath, path, originUrl) -> bool:
+		return self(self.SUBMODULE, rootPath).with_args(self.ADD, originUrl, path).spawn()
+
+	def git_submodule_set_origin(self, rootPath, path, originUrl) -> bool:
+		return self(self.SUBMODULE, rootPath).with_args(self.SET_URL, path, originUrl).spawn()
 
 	def git_add_all(self, path) -> bool:
 		return self(self.ADD, path).with_flags(self.ALL).spawn()

@@ -1,3 +1,4 @@
+import json
 import os
 import time
 
@@ -8,13 +9,33 @@ from lib.common import build_logger
 logger = build_logger(__name__, level="DEBUG")
 
 
-class Repository:
-	List = []
+class Repositories:
+	Map = {}
 
-	def __init__(self, path, origin):
+	def __init__(self, name, path, origin):
+		self.name = name
 		self.path = path
 		self.origin = origin
-		self.List.append(self)
+
+	@staticmethod
+	def add(name, path, origin):
+		repo = Repositories(name, path, origin)
+		Repositories.Map[name] = repo
+		return repo
+
+	@staticmethod
+	def get(name=None):
+		if name is None:
+			return Repositories.Map
+		else:
+			try:
+				return Repositories.Map[name]
+			except:
+				return None
+
+	@staticmethod
+	def get_list():
+		return Repositories.Map.values()
 
 
 class Backuper(GitExecutor):
@@ -23,7 +44,7 @@ class Backuper(GitExecutor):
 		('user.email', '<>'),
 	]
 
-	def __init__(self, root: Repository, *submodules: Repository):
+	def __init__(self, root: Repositories, *submodules: Repositories):
 		self.root = root
 		self.submodules = submodules
 		self.repos = (root,) + submodules
@@ -32,6 +53,7 @@ class Backuper(GitExecutor):
 		self.git_remote_add_origin(self.root.path, self.root.origin)
 		for submodule in self.submodules:
 			self.git_submodule_add_origin(self.root.path, submodule.path, submodule.origin)
+			self.git_submodule_set_origin(self.root.path, submodule.path, submodule.origin)
 
 	def init_backup(self, ):
 		for repo in self.repos:
@@ -79,15 +101,52 @@ def maintenance(backuper, formatterKwargs):
 	if backuper.do_backup():
 		logger.info("Begin maintenance...")
 		if formatterKwargs['directory'] is None:
-			logger.error("formatterKwargs key 'directory' need to have non-none value.")
+			logger.warning("Content directory not specified. Abort formatting.")
 		else:
-			logger.info("Reformat data begin")
+			logger.info("Begin content directory formatting.")
 			try:
 				logger.info(f"Maintainer try to reformat content at {formatterKwargs['directory']}.")
 				hugo_content_formatter(**formatterKwargs)
 			except Exception as err:
 				logger.error(f"Maintainer failed to reformat content at {formatterKwargs['directory']} due to : {err}")
 			return True
+
+
+def load_settings():
+	logger.info("Load project.json settings...")
+	with open("project.json") as fp:
+		envDict = json.load(fp)
+
+	logger.info("Setup backuper...")
+
+	return envDict
+
+
+def setup_repositories(envDict):
+	repos = Repositories.add('root', envDict['repo']['dir'], envDict['repo']['origin'])
+	for name, repo in envDict['repo']['submodules'].items():
+		repoDir = repo['dir']
+		if os.path.exists(repoDir):
+			Repositories.add(name, repo['dir'], repo['origin'])
+		else:
+			logger.exception(f"Repo DIR {repoDir} does not exist. Abort.")
+			return None
+	return repos
+
+
+def setup_backuper(repos):
+	backuper = Backuper(repos.get('root'), *repos.get_list())
+	backuper.init_backup()
+	backuper.init_orgins()
+	backuper.do_backup()
+	return backuper
+
+
+def setup_formatter_kwargs(repos, formatterKwargs):
+	if not Repositories.get('content'):
+		raise logger.warning("Submodule 'content' was not provided. Hugo formatter disabled.")
+	else:
+		formatterKwargs['directory'] = repos.get('content')
 
 
 def main():
@@ -101,23 +160,15 @@ def main():
 		'includedExtensionsGlobs': ['.md', '.markdown', '.git']
 	}
 
-	MAINTENANCE_INTERVALS = int(os.environ.get('MAINTAINER_INTERVALS'))
-
-	rootRepository = Repository(os.environ['PROJECT_ROOT'], os.environ['PROJECT_ROOT_ORIGIN'])
-	contentRepository = Repository(os.environ['PROJECT_CONTENT'], os.environ['PROJECT_CONTENT_ORIGIN'])
-	hugoRepository = Repository(os.environ['PROJECT_HUGO'], os.environ['PROJECT_HUGO_ORIGIN'])
-
-	formatterKwargs['directory'] = contentRepository.path
-
-	backuper = Backuper(rootRepository, contentRepository, hugoRepository)
-	backuper.init_backup()
-	backuper.init_orgins()
-	backuper.do_backup()
-
 	logger.info("Maintainer begin LOOP:")
 	while True:
-		maintenance(backuper, formatterKwargs)
-		time.sleep(MAINTENANCE_INTERVALS)
+		envDict = load_settings()
+		repos = setup_repositories(envDict)
+		if repos:
+			backuper = setup_backuper(repos)
+			setup_formatter_kwargs(repos, formatterKwargs)
+			maintenance(backuper, formatterKwargs)
+		time.sleep(int(envDict['maintainer']['intervals']))
 
 
 if __name__ == '__main__':

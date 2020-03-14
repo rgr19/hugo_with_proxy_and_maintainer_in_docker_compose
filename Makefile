@@ -1,5 +1,5 @@
-include .env.project
-export # will export content of .env.project
+#include .env.project
+#export # will export content of .env.project
 all:  pip reload d b up maintain
 serve: pip reload d b up
 clean: reload d
