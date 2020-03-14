@@ -35,7 +35,7 @@ class GitExecutor(ExecutorCallerAbstract):
 		return self(self.INIT, path).with_flags(self.SHARED).spawn()
 
 	def git_remote_add_origin(self, path, originUrl) -> bool:
-		return self(self.REMOTE, path).with_args(self.ADD, self.ORIGIN, originUrl).spawn()
+		return self(self.REMOTE, path).with_args(self.ADD, self.ORIGIN, originUrl).spawn(exitOnError=False, quietError=True)
 
 	def git_submodule_add_origin(self, rootPath, path, originUrl) -> bool:
 		return self(self.SUBMODULE, rootPath).with_args(self.ADD, originUrl, path).spawn(exitOnError=False, quietError=True)
