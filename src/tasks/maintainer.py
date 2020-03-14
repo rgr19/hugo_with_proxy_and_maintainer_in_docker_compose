@@ -20,15 +20,22 @@ class RepositoryType(enum.Enum):
 class Repositories:
 	Map = datas.autodict()
 
-	def __init__(self, name, path, origin, type: RepositoryType):
+	def __init__(self, rootPath, name, path, origin, type: RepositoryType):
 		self.name = name
 		self.path = path
 		self.origin = origin
 		self.type = type
+		self.rootPath = rootPath
+
+	def __str__(self):
+		return f"Repositories(name: {self.name}, path: {self.path}, origin: {self.origin}, type: {self.type}, rootPath: {self.rootPath})"
+
+	def __repr__(self):
+		return self.__str__()
 
 	@staticmethod
-	def add(name, path, origin, type):
-		repo = Repositories(name, path, origin, type)
+	def add(name, path, origin, type, rootPath=None):
+		repo = Repositories(rootPath, name, path, origin, type)
 		Repositories.Map[type][name] = repo
 		return repo
 
@@ -60,16 +67,16 @@ class Backuper(GitExecutor):
 		('user.email', '<>'),
 	]
 
-	def __init__(self, root: Repositories, *submodules: Repositories):
-		self.root = root
-		self.submodules = submodules
-		self.repos = (root,) + submodules
+	def __init__(self, *repos: Repositories):
+		self.repos = repos
 
 	def init_orgins(self):
-		self.git_remote_add_origin(self.root.path, self.root.origin)
-		for submodule in self.submodules:
-			self.git_submodule_add_origin(self.root.path, submodule.path, submodule.origin)
-			self.git_submodule_set_origin(self.root.path, submodule.path, submodule.origin)
+		for repo in self.repos:
+			if repo.type is RepositoryType.root:
+				self.git_remote_add_origin(repo.path, repo.origin)
+			elif repo.type is RepositoryType.submodule:
+				self.git_submodule_add_origin(repo.rootPath, repo.path, repo.origin)
+				self.git_submodule_set_origin(repo.rootPath, repo.path, repo.origin)
 
 	def init_backup(self, ):
 		for repo in self.repos:
@@ -136,15 +143,24 @@ def load_settings():
 	return envDict
 
 
+def setup_submodules(repos, name, repoDict, rootPath):
+	repoDir = repoDict['dir']
+	if os.path.exists(repoDir):
+		repos.add(name, repoDir, repoDict['origin'], RepositoryType.submodule, rootPath)
+	else:
+		logger.exception(f"Repo DIR {repoDir} does not exist. Abort.")
+		return None
+
+	if 'submodules' in repoDict:
+		for name, subrepoDict in repoDict['submodules'].items():
+			setup_submodules(repos, name, subrepoDict, repoDir)
+	return repos
+
+
 def setup_repositories(envDict):
 	repos = Repositories.add('root', envDict['repo']['dir'], envDict['repo']['origin'], RepositoryType.root)
-	for name, repo in envDict['repo']['submodules'].items():
-		repoDir = repo['dir']
-		if os.path.exists(repoDir):
-			Repositories.add(name, repo['dir'], repo['origin'], RepositoryType.submodule)
-		else:
-			logger.exception(f"Repo DIR {repoDir} does not exist. Abort.")
-			return None
+	for name, repoDict in envDict['repo']['submodules'].items():
+		setup_submodules(repos, name, repoDict, envDict['repo']['dir'])
 	return repos
 
 

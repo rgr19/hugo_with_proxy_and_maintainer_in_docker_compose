@@ -12,15 +12,17 @@
       },
       "hugo": {
         "dir": "./src/main/hugo",
-        "origin": "git@github.com:rgr19/hugo_in_docker.git"
-      },
-      "theme_zzo": {
-        "dir": "./src/main/hugo/src/themes/zzo",
-        "origin": "git@github.com:rgr19/hugo-theme-zzo.git"
-      },
-      "theme_zdoc": {
-        "dir": "./src/main/hugo/src/themes/zdoc",
-        "origin": "git@github.com:rgr19/hugo-theme-zdoc.git"
+        "origin": "git@github.com:rgr19/hugo_in_docker.git",
+        "submodules": {
+          "theme_zzo": {
+            "dir": "./src/main/hugo/src/themes/zzo",
+            "origin": "git@github.com:rgr19/hugo-theme-zzo.git"
+          },
+          "theme_zdoc": {
+            "dir": "./src/main/hugo/src/themes/zdoc",
+            "origin": "git@github.com:rgr19/hugo-theme-zdoc.git"
+          }
+        }
       }
     }
   }
