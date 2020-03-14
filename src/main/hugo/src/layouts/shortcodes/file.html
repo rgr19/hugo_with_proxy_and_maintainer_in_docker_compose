@@ -67,8 +67,11 @@
 
 {{ if fileExists ( $filepath ) }}
 <!--{{- ( print "\n```\n FILE BEGIN: " ( $file ) " FORMAT: " ( $format ) "\n```\n\n" ) | markdownify -}}-->
-<!--{{ highlight ( $filepath | readFile | safeHTML ) $format "linenos=table,linenostart=$startline" }}-->
+{{ if ge hugo.Version 0.62 }}
 {{- $.Page.RenderString ( print "```" ( $format ) "\n" ( $filepath | readFile | safeHTML ) "\n```" ) -}}
+{{ else }}
+{{ highlight ( $filepath | readFile | safeHTML ) $format "linenos=table,linenostart=$startline" }}
+{{ end }}
 <!--{{- ( print "\n```\n FILE END : " ( $file )  "\n```\n\n" ) | markdownify -}}-->
 {{/* Say something if the file is not found and display the path that was specified in the shortcode (`file=" "`). */}}
 {{ else }}

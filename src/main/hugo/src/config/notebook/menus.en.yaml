@@ -1,0 +1,37 @@
+main:
+  - identifier: "blog"
+    name: "[Blog]"
+    url: "http://localhost/"
+    weight: 1
+  - identifier: "tests"
+    name: "Tests"
+    url: "tests"
+    weight: 2
+  - identifier: "study"
+    name: "Study"
+    url: "study"
+    weight: 3
+  - identifier: "notes"
+    name: "Notes"
+    url: "notes"
+    weight: 4
+  - identifier: "examples"
+    name: "Examples"
+    url: "examples"
+    weight: 5
+  - identifier: "investing"
+    name: "Investing"
+    url: "investing"
+    weight: 6
+  - identifier: "drafts"
+    name: "Draft"
+    url: "drafts"
+    weight: 7
+  - identifier: "updates"
+    name: "Updates"
+    url: "updates"
+    weight: 100
+
+
+
+

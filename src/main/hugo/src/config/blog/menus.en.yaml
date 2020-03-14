@@ -1,5 +1,5 @@
 main:
-  - identifier: notes
+  - identifier: notebook
     name: "[notebook]"
     url: "http://localhost/notebook"
     weight: 1

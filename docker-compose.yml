@@ -27,7 +27,7 @@
     - "./output/hugo/public/blog:/srv/hugo/output/blog:rw"
     - "./content/draft/content/blog:/srv/hugo/content:ro"
     - "./cache/hugo/resources:/hugo/src/resources:rw"
-  "web-hugo-docs":
+  "web-hugo-notebook":
     "build":
       "args":
       - "HUGO_VERSION=0.60.0"
@@ -36,24 +36,24 @@
       "context": "src/main/hugo"
       "dockerfile": "Dockerfile"
     "command": "make all"
-    "container_name": "web-hugo-docs"
+    "container_name": "web-hugo-notebook"
     "env_file": ".env"
     "environment":
-    - "HUGO_ENV=docs"
-    - "HUGO_WEB_NAME=web-hugo-docs"
-    - "HUGO_BASEURL=localhost/docs"
+    - "HUGO_ENV=notebook"
+    - "HUGO_WEB_NAME=web-hugo-notebook"
+    - "HUGO_BASEURL=localhost/notebook"
     - "HUGO_VERSION=0.60.0"
-    - "HUGO_OUTPUT=/srv/hugo/output/docs"
+    - "HUGO_OUTPUT=/srv/hugo/output/notebook"
     - "HUGO_THEME=zdoc"
     - "HUGO_PORT=1314"
-    "image": "web-hugo-docs:0.60.0"
+    "image": "web-hugo-notebook:0.60.0"
     "ports":
     - "1313"
     "restart": "always"
     "volumes":
     - "./src/main/hugo:/hugo:ro"
-    - "./output/hugo/public/docs:/srv/hugo/output/docs:rw"
-    - "./content/draft/content/docs:/srv/hugo/content:ro"
+    - "./output/hugo/public/notebook:/srv/hugo/output/notebook:rw"
+    - "./content/draft/content/notebook:/srv/hugo/content:ro"
     - "./cache/hugo/resources:/hugo/src/resources:rw"
   "web-proxy":
     "build":
@@ -63,7 +63,7 @@
     "container_name": "web-proxy"
     "depends_on":
     - "web-hugo-blog"
-    - "web-hugo-docs"
+    - "web-hugo-notebook"
     "env_file": ".env"
     "image": "blog-proxy:1.0"
     "ports":
