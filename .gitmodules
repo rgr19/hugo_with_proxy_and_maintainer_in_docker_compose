@@ -1,3 +1,9 @@
 [submodule "src/main/hugo"]
 	path = src/main/hugo
 	url = git@github.com:rgr19/hugo_in_docker.git
+[submodule "content"]
+	url = git@github.com:rgr19/hugo_blog_content.git
+[submodule "src/main/hugo/src/themes/zzo"]
+	url = git@github.com:rgr19/hugo-theme-zzo.git
+[submodule "src/main/hugo/src/themes/zdoc"]
+	url = git@github.com:rgr19/hugo-theme-zdoc.git
