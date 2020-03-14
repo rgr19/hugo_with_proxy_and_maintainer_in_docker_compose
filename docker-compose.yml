@@ -1,0 +1,77 @@
+"services":
+  "web-hugo-blog":
+    "build":
+      "args":
+      - "HUGO_VERSION=0.60.0"
+      - "HUGO_TYPE=_extended"
+      - "HUGO_HOME=/hugo"
+      "context": "src/main/hugo"
+      "dockerfile": "Dockerfile"
+    "command": "make all"
+    "container_name": "web-hugo-blog"
+    "env_file": ".env"
+    "environment":
+    - "HUGO_ENV=blog"
+    - "HUGO_WEB_NAME=web-hugo-blog"
+    - "HUGO_BASEURL=localhost"
+    - "HUGO_VERSION=0.60.0"
+    - "HUGO_OUTPUT=/srv/hugo/output/blog"
+    - "HUGO_THEME=zzo"
+    - "HUGO_PORT=1313"
+    "image": "web-hugo-blog:0.60.0"
+    "ports":
+    - "1313"
+    "restart": "always"
+    "volumes":
+    - "./src/main/hugo:/hugo:ro"
+    - "./output/hugo/public/blog:/srv/hugo/output/blog:rw"
+    - "./content/draft/content/blog:/srv/hugo/content:ro"
+    - "./cache/hugo/resources:/hugo/src/resources:rw"
+  "web-hugo-notebook":
+    "build":
+      "args":
+      - "HUGO_VERSION=0.60.0"
+      - "HUGO_TYPE=_extended"
+      - "HUGO_HOME=/hugo"
+      "context": "src/main/hugo"
+      "dockerfile": "Dockerfile"
+    "command": "make all"
+    "container_name": "web-hugo-notebook"
+    "env_file": ".env"
+    "environment":
+    - "HUGO_ENV=notebook"
+    - "HUGO_WEB_NAME=web-hugo-notebook"
+    - "HUGO_BASEURL=localhost/notebook"
+    - "HUGO_VERSION=0.60.0"
+    - "HUGO_OUTPUT=/srv/hugo/output/notebook"
+    - "HUGO_THEME=zdoc"
+    - "HUGO_PORT=1314"
+    "image": "web-hugo-notebook:0.60.0"
+    "ports":
+    - "1313"
+    "restart": "always"
+    "volumes":
+    - "./src/main/hugo:/hugo:ro"
+    - "./output/hugo/public/notebook:/srv/hugo/output/notebook:rw"
+    - "./content/draft/content/notebook:/srv/hugo/content:ro"
+    - "./cache/hugo/resources:/hugo/src/resources:rw"
+  "web-proxy":
+    "build":
+      "context": "src/main/proxy"
+      "dockerfile": "Dockerfile"
+    "command": "make all"
+    "container_name": "web-proxy"
+    "depends_on":
+    - "web-hugo-blog"
+    - "web-hugo-notebook"
+    "env_file": ".env"
+    "image": "blog-proxy:1.0"
+    "ports":
+    - "80:80"
+    - "8080:8080"
+    "restart": "always"
+    "volumes":
+    - "./src/main/proxy:/nginx:ro"
+    - "./output/proxy/conf.d:/etc/nginx/conf.d:rw"
+"version": "3.7"
+

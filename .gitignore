@@ -1,0 +1,7 @@
+*.code-workspace
+.idea
+output
+cache
+data
+.git.bkp
+public
