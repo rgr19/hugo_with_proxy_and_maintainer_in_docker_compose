@@ -3,4 +3,4 @@
   url = git@github.com:rgr19/hugo_in_docker.git
 [submodule "content"]
   path = content
-	url = git@github.com:rgr19/hugo_blog_content.git
+  url = git@github.com:rgr19/hugo_blog_content.git
